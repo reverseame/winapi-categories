@@ -4,8 +4,11 @@ For your automation needs. This repo is a revamp of [winapi-json](https://github
 ## Usage
 The JSON file comprising all MSDN API calls is already provided with the repo ([winapi_categories.json](./winapi_categories.json)).
 
-Nevertheless, if you need to modify the script or reexecute it, do it like so:
-`python3 generate_api_json.py ../winapi-json/api_by_category` or just `./generate_api_json.py ../winapi-json/api_by_category`.
+Nevertheless, if you need to modify the script or re execute it, do it like so:  
+`python3 generate_api_json.py ../winapi-json/api_by_category`  
+or just  
+`./generate_api_json.py ../winapi-json/api_by_category`  
+where `/winapi/api_by_category` is the directory created after cloning the (original) aforementioned repo.
 
 ## Structure
 The resulting JSON file has the following structure. The `dict` structure was chosen with Python optimization in mind. Feel free to change it according to your needs:
