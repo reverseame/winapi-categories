@@ -1,0 +1,154 @@
+Dynamic Data Exchange (DDE)
+Windows Sockets (Winsock)
+Carets
+Windows Web Services
+Directory Management
+Cryptography
+Debugging
+Edit Controls
+Mouse Input
+Mobile Broadband
+Combo Boxes
+Services
+Hooks
+GDI+
+Coordinate Space and Transformation
+Windows Resource Protection
+Driver Support
+Software Licensing
+Simple Network Management Protocol (SNMP)
+Client
+Authorization
+Windows
+Synchronization
+OpenGL
+Unicode and Character Set
+Backup
+Window Station and Desktop
+Buttons
+WebDAV
+Hardware Counter Profiling (HCP)
+Windows Imaging Component (WIC)
+Timer
+Core Audio
+Multiple Display Monitors
+WebSocket Protocol Component
+Device Management
+Multilingual User Interface (MUI)
+List-View Controls
+Icons
+Windows Filtering Platform
+Menus
+Windows Connection Manager
+Power Management
+Network Dynamic Data Exchange (DDE)
+Painting and Drawing
+Windows Genuine Advantage
+Compression API
+Print Spooler
+Extensible Authentication Protocol (EAP)
+Large Integer
+Input Feedback Configuration
+Mailslots
+Raw Input
+Direct2D
+Files and I/O (Local file system)
+Processes
+Virtual Hard Disk (VHD)
+Performance Counters
+Error Handling
+Network Management
+GDI Print API
+IP Helper
+Event Logging
+Resource
+Registry
+Font and Text
+Window Properties
+Wait Chain Traversal
+Windows Shell
+Restart Manager
+Windows Internet (WinINet)
+Windows Error Reporting (WER)
+Volume Shadow Copy
+Process Snapshotting
+Operation Recorder
+Windows Property System
+Disk Management
+Native Wifi
+Cursors
+Time
+COM
+Messages and Message Queues
+Transactional NTFS
+iSCSI Discovery Library API
+Authentication
+Windows Firewall with Advanced Security
+Cryptographic Next Generation (CNG)
+Microsoft Management Console (MMC) 2.0
+Dynamic-Link Libraries (DLLs)
+Pipes
+Multicast Address Dynamic Client Allocation Protocol (MADCAP)
+Network Policy Server Extensions (NPS)
+DirectShow
+Get Connected Wizard
+PROPVARIANT and VARIANT
+Memory Management
+Strings
+Domain Name System (DNS)
+Event Tracing
+Bluetooth
+Process Status (PSAPI)
+Time Provider
+Windows GDI
+Property Sheets
+TAPI
+OLE and Data Transfer
+Windows Media Format
+Communications Resources
+Group Policy
+Consoles
+Network Access Protection (NAP)
+Keyboard Accelerators
+Accessibility
+Visual Styles
+Quality of Service (QOS)
+Network Share Management
+System Information Functions
+Dialog Boxes
+System Event Notification Service (SENS)
+Atom
+Windows Multimedia
+Windows Networking (WNet)
+Cabinet API
+Microsoft Media Foundation
+Monitor Configuration
+Network Diagnostics Framework (NDF)
+CNG Cryptographic Primitive
+Toolbars
+Common Dialog Boxes
+Volume Management
+Structured Exception Handling
+Device Access
+Keyboard Input
+Application Recovery and Restart
+Rich Edit Controls
+Internet Connection Sharing and Firewall
+Server
+List Boxes
+Drivers
+DirectComposition
+Handle and Objects
+Developer License
+TPM Base Services (TBS)
+National Language Support (NLS)
+Active Directory Service Interfaces (ADSI)
+Dynamic Data Exchange Management (DDEML)
+Conversion and Manipulation
+Desktop Window Manager (DWM)
+Device Context
+Window Classes
+Clipboard
+Scroll Bars
+DirectWrite
+Kernel Transaction Manager (KTM)
