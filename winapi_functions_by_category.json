@@ -3068,7 +3068,8 @@
         "NtQueryKey",
         "NtEnumerateKey",
         "NtSetValueKey",
-        "NtEnumerateValueKey"
+        "NtEnumerateValueKey",
+        "NtDeleteValueKey"
     ],
     "Font and Text": [
         "AddFontMemResourceEx",
