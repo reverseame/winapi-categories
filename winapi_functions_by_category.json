@@ -2279,7 +2279,8 @@
         "NtReadFile",
         "NtOpenDirectoryObject",
         "NtQueryDirectoryFile",
-        "NtQueryFullAttributesFile"
+        "NtQueryFullAttributesFile",
+        "MoveFileWithProgressTransactedW"
     ],
     "Processes": [
         "CreateProcessWithLogonW",
