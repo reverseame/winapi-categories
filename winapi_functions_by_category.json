@@ -2268,6 +2268,8 @@
         "Wow64RevertWow64FsRedirection",
         "WriteFile",
         "WriteFileGather",
+        "CreateFile",
+        "DeleteFile",
         "NtQueryAttributesFile",
         "NtOpenFile",
         "NtCreateFile",
@@ -2275,7 +2277,9 @@
         "NtSetInformationFile",
         "NtWriteFile",
         "NtReadFile",
-        "NtOpenDirectoryObject"
+        "NtOpenDirectoryObject",
+        "NtQueryDirectoryFile",
+        "NtQueryFullAttributesFile"
     ],
     "Processes": [
         "CreateProcessWithLogonW",
@@ -3935,9 +3939,7 @@
     ],
     "Disk Management": [
         "GetDiskFreeSpace",
-        "GetDiskFreeSpaceEx",
-        "CreateFile",
-        "DeleteFile"
+        "GetDiskFreeSpaceEx"
     ],
     "Native Wifi": [
         "WFD_DISPLAY_SINK_NOTIFICATION_CALLBACK",
