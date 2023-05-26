@@ -2530,7 +2530,8 @@
         "CreateToolhelp32Snapshot",
         "NtGetContextThread",
         "NtSetContextThread",
-        "NtDelayExecution"
+        "NtDelayExecution",
+        "NtYieldExecution"
     ],
     "Virtual Hard Disk (VHD)": [
         "ApplySnapshotVhdSet",
@@ -2772,7 +2773,8 @@
         "WinHttpOpen",
         "WinHttpSetOption",
         "WinHttpOpenRequest",
-        "WinHttpSendRequest"
+        "WinHttpSendRequest",
+        "WinHttpConnect"
     ],
     "GDI Print API": [
         "AbortDoc",
