@@ -1,5 +1,8 @@
 # Win API calls with categories in JSON format
-For your automation needs. This repo is a revamp of [winapi-json](https://github.com/vadimkotov/winapi-json).
+This repo provides a classification of Windows API (WinAPI) functions, including the Native API and Win32, according to their category. This repo is a revamp of [winapi-json](https://github.com/vadimkotov/winapi-json) for your research and automation needs.
+
+The list of categories defined can be found in [categories.txt](./categories.txt).
+
 
 ## Usage
 The JSON file comprising all MSDN API calls is already provided with the repo ([winapi_categories.json](./winapi_categories.json)).
