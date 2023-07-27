@@ -730,8 +730,13 @@
         "SetDoubleClickTime",
         "SwapMouseButton",
         "mouse_event",
+        "WindowFromPoint",
+        "DragObject"
+    ],
+    "Window Procedures": [
         "DefWindowProc",
-        "WindowFromPoint"
+        "CallWindowProc",
+        "WindowProc"
     ],
     "Mobile Broadband": [
         "WwanCloseHandle",
@@ -802,7 +807,8 @@
         "ShellProc",
         "SysMsgProc",
         "UnhookWindowsHookEx",
-        "RtlAddVectoredExceptionHandler"
+        "RtlAddVectoredExceptionHandler",
+        "SetWindowsHook"
     ],
     "GDI+": [
         "GdiplusShutdown",
@@ -1617,7 +1623,8 @@
         "glTexSubImage1D",
         "glTexSubImage2D",
         "glVertexPointer",
-        "glViewport"
+        "glViewport",
+        "GetEnhMetaFilePixelFormat"
     ],
     "Unicode and Character Set": [
         "GetTextCharset",
@@ -1845,7 +1852,8 @@
         "SetMenuItemBitmaps",
         "SetMenuItemInfo",
         "TrackPopupMenu",
-        "TrackPopupMenuEx"
+        "TrackPopupMenuEx",
+        "VerLanguageName"
     ],
     "Windows Connection Manager": [
         "WcmFreeMemory",
@@ -2280,7 +2288,12 @@
         "NtOpenDirectoryObject",
         "NtQueryDirectoryFile",
         "NtQueryFullAttributesFile",
-        "MoveFileWithProgressTransactedW"
+        "MoveFileWithProgressTransactedW",
+        "_hread",
+        "_hwrite",
+        "_lcreat",
+        "_llseek",
+        "_lopen"
     ],
     "Processes": [
         "CreateProcessWithLogonW",
@@ -5012,7 +5025,13 @@
         "NtAllocateVirtualMemory",
         "memcpy",
         "NtProtectVirtualMemory",
-        "NtWriteVirtualMemory"
+        "NtWriteVirtualMemory",
+        "GetHGlobalFromILockBytes",
+        "GlobalCompact",
+        "GlobalFix",
+        "GlobalUnfix",
+        "IsBadHugeReadPtr",
+        "IsBadHugeWritePtr"
     ],
     "Strings": [
         "CharLower",
@@ -5402,7 +5421,14 @@
         "CreateDiscardableBitmap",
         "FloodFill",
         "GetBitmapBits",
-        "SetBitmapBits"
+        "SetBitmapBits",
+        "CheckColorsInGamut",
+        "CreateColorSpace",
+        "DeleteColorSpace",
+        "GetColorSpace",
+        "GetDeviceGammaRamp",
+        "SetICMMode",
+        "UpdateICMRegKey"
     ],
     "Property Sheets": [
         "AddPropSheetPageProc",
@@ -5620,7 +5646,14 @@
         "OleUninitialize",
         "RegisterDragDrop",
         "ReleaseStgMedium",
-        "RevokeDragDrop"
+        "RevokeDragDrop",
+        "ReadClassStg",
+        "StgCreateDocfile",
+        "StgIsStorageFile",
+        "StgOpenAsyncDocfileOnIFillLockBytes",
+        "StgOpenStorage",
+        "WriteClassStm",
+        "WriteFmtUserTypeStg"
     ],
     "Windows Media Format": [
         "WMCheckURLExtension",
@@ -6845,7 +6878,8 @@
         "GetKBCodePage",
         "keybd_event",
         "VkKeyScan",
-        "TranslateMessage"
+        "TranslateMessage",
+        "GetKeyboardType"
     ],
     "Application Recovery and Restart": [
         "ApplicationRecoveryFinished",
@@ -7421,7 +7455,8 @@
         "SetHandleInformation",
         "NtClose",
         "NtDuplicateObject",
-        "NtOpenEvent"
+        "NtOpenEvent",
+        "_lclose"
     ],
     "Developer License": [
         "CheckDeveloperLicense",
@@ -8019,7 +8054,12 @@
         "SetClassWord",
         "SetWindowLong",
         "SetWindowLongPtr",
-        "UnregisterClass"
+        "UnregisterClass",
+        "DefFrameProc",
+        "DefMDIChildProc",
+        "GetWindowWord",
+        "SetWindowWord",
+        "TranslateMDISysAccel"
     ],
     "Clipboard": [
         "AddClipboardFormatListener",
