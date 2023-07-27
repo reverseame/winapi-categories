@@ -2,9 +2,10 @@
 # RazviOverflow
 
 import json
+import sys
 
 if __name__ == '__main__':
-	with open("winapi_categories.json") as f:
+	with open(sys.argv[1]) as f:
 		json_data = json.load(f)
 
 	categories_and_functions = {}
