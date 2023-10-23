@@ -689,7 +689,9 @@
         "PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD pointer",
         "PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE pointer",
         "PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER pointer",
-        "PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE pointer"
+        "PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE pointer",
+        "HTTPSCertificateTrust",
+        "HTTPSFinalProv"
     ],
     "Debugging": [
         "CheckRemoteDebuggerPresent",
@@ -2298,7 +2300,7 @@
         "NtOpenDirectoryObject",
         "NtQueryDirectoryFile",
         "NtQueryFullAttributesFile",
-        "MoveFileWithProgressTransactedW",
+        "MoveFileWithProgressTransacted",
         "_hread",
         "_hwrite",
         "_lcreat",
@@ -2807,7 +2809,9 @@
         "WinHttpSetOption",
         "WinHttpOpenRequest",
         "WinHttpSendRequest",
-        "WinHttpConnect"
+        "WinHttpConnect",
+        "WinHttpReceiveResponse",
+        "WinHttpQueryHeaders"
     ],
     "GDI Print API": [
         "AbortDoc",
