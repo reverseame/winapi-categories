@@ -2566,7 +2566,8 @@
         "NtQueryInformationToken",
         "NtOpenProcessToken",
         "NtCreateThreadEx",
-        "NtSuspendThread"
+        "NtSuspendThread",
+        "NtQueueApcThread"
     ],
     "Virtual Hard Disk (VHD)": [
         "ApplySnapshotVhdSet",
