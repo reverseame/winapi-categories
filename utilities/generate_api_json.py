@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # RazviOverflow
 
+# Script used to convert the original GitHub repository into the actual structure
+
 import os, json, sys
 
 if __name__ == "__main__":
