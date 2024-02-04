@@ -56,6 +56,7 @@
     "Direct2D",
     "Files and I/O (Local file system)",
     "Processes",
+    "System Information Functions",
     "Virtual Hard Disk (VHD)",
     "Performance Counters",
     "Error Handling",
@@ -116,7 +117,6 @@
     "Visual Styles",
     "Quality of Service (QOS)",
     "Network Share Management",
-    "System Information Functions",
     "Dialog Boxes",
     "System Event Notification Service (SENS)",
     "Atom",
@@ -153,5 +153,7 @@
     "Clipboard",
     "Scroll Bars",
     "DirectWrite",
-    "Kernel Transaction Manager (KTM)"
+    "Kernel Transaction Manager (KTM)",
+    "Browser",
+    "Misc"
 ]

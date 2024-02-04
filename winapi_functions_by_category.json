@@ -1280,7 +1280,8 @@
         "TileWindows",
         "UpdateLayeredWindow",
         "UpdateLayeredWindowIndirect",
-        "WindowFromPhysicalPoint"
+        "WindowFromPhysicalPoint",
+        "SaferIdentifyLevel"
     ],
     "Synchronization": [
         "APCProc",
@@ -1770,7 +1771,8 @@
         "CdromIsDigitalPlaybackEnabled",
         "CdromKnownGoodDigitalPlayback",
         "DvdLauncher",
-        "NtDeviceIoControlFile"
+        "NtDeviceIoControlFile",
+        "SetupDiGetClassDevs"
     ],
     "Multilingual User Interface (MUI)": [
         "EnumUILanguages",
@@ -2305,7 +2307,9 @@
         "_hwrite",
         "_lcreat",
         "_llseek",
-        "_lopen"
+        "_lopen",
+        "GetFileVersionInfo",
+        "GetFileVersionInfoSize"
     ],
     "Processes": [
         "CreateProcessWithLogonW",
@@ -2317,8 +2321,6 @@
         "GetCurrentProcess",
         "GetCurrentProcessId",
         "GetCurrentProcessorNumber",
-        "GetEnvironmentStrings",
-        "GetEnvironmentVariable",
         "GetExitCodeProcess",
         "GetGuiResources",
         "GetLogicalProcessorInformation",
@@ -2344,7 +2346,6 @@
         "QueryFullProcessImageName",
         "QueryProcessAffinityUpdateMode",
         "QueryProcessCycleTime",
-        "SetEnvironmentVariable",
         "SetPriorityClass",
         "SetProcessAffinityMask",
         "SetProcessAffinityUpdateMode",
@@ -2567,7 +2568,51 @@
         "NtOpenProcessToken",
         "NtCreateThreadEx",
         "NtSuspendThread",
-        "NtQueueApcThread"
+        "NtQueueApcThread",
+        "NtResumeProcess",
+        "Module32First",
+        "Module32Next"
+    ],
+    "System Information Functions": [
+        "GetEnvironmentStrings",
+        "GetEnvironmentVariable",
+        "SetEnvironmentVariable",
+        "CeipIsOptedIn",
+        "DnsHostnameToComputerName",
+        "EnumSystemFirmwareTables",
+        "ExpandEnvironmentStrings",
+        "GetComputerName",
+        "GetComputerNameEx",
+        "GetComputerObjectName",
+        "GetCurrentHwProfile",
+        "GetFirmwareEnvironmentVariable",
+        "GetFirmwareEnvironmentVariableEx",
+        "GetFirmwareType",
+        "GetIntegratedDisplaySize",
+        "GetNativeSystemInfo",
+        "GetProductInfo",
+        "GetSystemDirectory",
+        "GetSystemFirmwareTable",
+        "GetSystemInfo",
+        "GetSystemWindowsDirectory",
+        "GetSystemWow64Directory",
+        "GetUserName",
+        "GetUserNameEx",
+        "GetVersion",
+        "GetVersionEx",
+        "GetWindowsDirectory",
+        "IsNativeVhdBoot",
+        "IsProcessorFeaturePresent",
+        "RtlGetSuiteMask",
+        "SetComputerName",
+        "SetComputerNameEx",
+        "SetFirmwareEnvironmentVariable",
+        "SetFirmwareEnvironmentVariableEx",
+        "TranslateName",
+        "VerifyVersionInfo",
+        "VerSetConditionMask",
+        "NtQuerySystemInformation",
+        "ZwQuerySystemInformation"
     ],
     "Virtual Hard Disk (VHD)": [
         "ApplySnapshotVhdSet",
@@ -2710,7 +2755,8 @@
         "SetErrorMode",
         "SetLastError",
         "SetLastErrorEx",
-        "SetThreadErrorMode"
+        "SetThreadErrorMode",
+        "NtRaiseHardError"
     ],
     "Network Management": [
         "NetAlertRaise",
@@ -3827,7 +3873,8 @@
         "InternetSetPerSiteCookieDecision",
         "PrivacyGetZonePreferenceW",
         "PrivacySetZonePreferenceW",
-        "IsValidURL"
+        "IsValidURL",
+        "URLDownloadToFile"
     ],
     "Windows Error Reporting (WER)": [
         "AddERExcludedApplication",
@@ -5099,7 +5146,8 @@
         "DnsReplaceRecordSet",
         "DnsValidateName",
         "DnsValidateServerStatus",
-        "DnsWriteQuestionToBuffer"
+        "DnsWriteQuestionToBuffer",
+        "DnsQuery_UTF8"
     ],
     "Event Tracing": [
         "ControlTrace",
@@ -5944,44 +5992,6 @@
         "NetShareDelEx",
         "NetShareEnum",
         "NetStatisticsGet"
-    ],
-    "System Information Functions": [
-        "CeipIsOptedIn",
-        "DnsHostnameToComputerName",
-        "EnumSystemFirmwareTables",
-        "ExpandEnvironmentStrings",
-        "GetComputerName",
-        "GetComputerNameEx",
-        "GetComputerObjectName",
-        "GetCurrentHwProfile",
-        "GetFirmwareEnvironmentVariable",
-        "GetFirmwareEnvironmentVariableEx",
-        "GetFirmwareType",
-        "GetIntegratedDisplaySize",
-        "GetNativeSystemInfo",
-        "GetProductInfo",
-        "GetSystemDirectory",
-        "GetSystemFirmwareTable",
-        "GetSystemInfo",
-        "GetSystemWindowsDirectory",
-        "GetSystemWow64Directory",
-        "GetUserName",
-        "GetUserNameEx",
-        "GetVersion",
-        "GetVersionEx",
-        "GetWindowsDirectory",
-        "IsNativeVhdBoot",
-        "IsProcessorFeaturePresent",
-        "RtlGetSuiteMask",
-        "SetComputerName",
-        "SetComputerNameEx",
-        "SetFirmwareEnvironmentVariable",
-        "SetFirmwareEnvironmentVariableEx",
-        "TranslateName",
-        "VerifyVersionInfo",
-        "VerSetConditionMask",
-        "NtQuerySystemInformation",
-        "ZwQuerySystemInformation"
     ],
     "Dialog Boxes": [
         "CreateDialog",
@@ -7454,7 +7464,8 @@
         "KdRefreshDebuggerNotPresent",
         "vDbgPrintEx",
         "NtCreateTransaction",
-        "NtCommitTransaction"
+        "NtCommitTransaction",
+        "RtlDecompressBuffer"
     ],
     "DirectComposition": [
         "DCompositionAttachMouseDragToHwnd",
@@ -8158,5 +8169,15 @@
         "RecoverTransactionManager",
         "RenameTransactionManager",
         "RollforwardTransactionManager"
+    ],
+    "Browser": [
+        "COleScript_ParseScriptText",
+        "JsEval",
+        "JsParseScript",
+        "CDocument_write",
+        "JsRunScript"
+    ],
+    "Misc": [
+        "srand"
     ]
 }
