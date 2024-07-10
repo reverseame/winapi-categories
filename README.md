@@ -1,7 +1,9 @@
 # WinAPI and syscalls with categories in JSON format
 Classification of Windows API (WinAPI) functions and system calls (syscalls), including the Native API and Win32, according to their category. 
 
-The list of categories defined can be found in [categories.txt](./categories.txt).
+- [winapi_categories.json](./winapi_categories.json) is the main file of the repo. Contains all the functions and syscalls with their corresponding category and arguments.
+- [winapi_functions_by_category.json](./winapi_functions_by_category.json) enumerates all the categories and the functions and syscalls each one of them comprises.
+- [categories.txt](./categories.txt) contains a list with all the categories.
 
 ## Usage
 The JSON file comprising all MSDN API calls is already provided with the repo ([winapi_categories.json](./winapi_categories.json)).
