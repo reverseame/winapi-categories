@@ -27,9 +27,12 @@ def parse_hookdef(file_content):
                 func_name = parts[1].strip()
             else:
                 func_name = parts[2].strip()
+
+            # Get the return type
+            return_type = parts[0].split('(')[1]
             
             # Find the opening parenthesis of the arguments list
-            args_start_idx = line.find('(', line.find(func_name)) + 1
+            #args_start_idx = line.find('(', line.find(func_name)) + 1
             
             # Collect all lines of arguments until we find the closing parenthesis
             args_lines = []
@@ -72,6 +75,7 @@ def parse_hookdef(file_content):
                 arguments.append(argument)
             
             functions[func_name] = {
+                "return_type": return_type,
                 "n_arguments": len(arguments),
                 "arguments": arguments
             }
@@ -92,3 +96,4 @@ if __name__ == "__main__":
 
     with open("hooks_h.json", "w") as file:
         json.dump(functions_dict, file, indent=4);
+    print("Results dumped to hooks_h.json.")
