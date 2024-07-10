@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # RazviOverflow
 import sys
-import re
 import json
 
 """
