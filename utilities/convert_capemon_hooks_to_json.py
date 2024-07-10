@@ -68,8 +68,7 @@ def parse_hookdef(file_content):
                 argument = {
                     "in_out": f"_{in_out.strip('_')}_",
                     "type": arg_type,
-                    "name": arg_name,
-                    "description": f"Type: {arg_type} {arg_name.replace('_', ' ').title()}."
+                    "name": arg_name
                 }
                 arguments.append(argument)
             
