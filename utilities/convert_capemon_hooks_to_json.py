@@ -86,7 +86,7 @@ if __name__ == "__main__":
     print("You can get hooks.h from:\n\thttps://raw.githubusercontent.com/kevoreilly/capemon/capemon/hooks.h; or\n\thttps://raw.githubusercontent.com/reverseame/capemon/capemon/hooks.h")
 
     if len(sys.argv) != 2:
-        print(f"\n[!] Invoke the script like: {sys.argv[0]} winapi_categories.json hooks.h\n")
+        print(f"\n[!] Invoke the script like: {sys.argv[0]} hooks.h\n")
         sys.exit()
 
     hooks_h = sys.argv[1]
