@@ -3,7 +3,6 @@ This repo provides a classification of Windows API (WinAPI) functions, including
 
 The list of categories defined can be found in [categories.txt](./categories.txt).
 
-
 ## Usage
 The JSON file comprising all MSDN API calls is already provided with the repo ([winapi_categories.json](./winapi_categories.json)).
 
@@ -35,5 +34,48 @@ The resulting JSON file has the following structure. The `dict` structure was ch
 }
 ```
 
+**ATTENTION!**: Only `API_NAME` and `category` are guaranteed to be present in the dict ([winapi_categories.json](./winapi_categories.json) file). If you find any incorrect, malformed or just missing entry, feel free *(you are more than welcome to)* to contribute to the project!
+
+### Authors
+[Razvan Raducu](https://github.com/RazviOverflow)
+Ricardo J. Rodíguez
+Pedro Álvarez
+
 ### Caveats
 If you see several `\t\t\t` in certain `description` fields, just ignore them or `.strip()` it when parsing. That's because the original repo also [contains them](https://github.com/vadimkotov/winapi-json/blob/master/api_by_category/dynamic_data_exchange_management.json#L26).
+
+### TODO
+Pending entries to review, fulfill or fix:
+```
+GlobalCompact
+GlobalFix
+GlobalUnfix
+_hread
+_hwrite
+IsBadHugeReadPtr
+_lcreat
+_llseek
+IsBadHugeWritePtr
+_lclose
+_lopen
+ReadClassStg
+StgCreateDocfile
+StgIsStorageFile
+StgOpenAsyncDocfileOnIFillLockBytesKeyError
+StgOpenStorage
+WriteClassStm
+WriteFmtUserTypeStg
+SetICMMode
+SetWindowsHook
+SetWindowWord
+TranslateMDISysAccel
+UpdateICMRegKey
+VerLanguageName
+malloc
+GetFileVersionInfo
+GetFileVersionInfoSize
+Module32First
+Module32Next
+SetupDiGetClassDevs
+URLDownloadToFile
+```
