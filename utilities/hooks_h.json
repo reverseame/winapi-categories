@@ -1,5 +1,6 @@
 {
     "NtQueryAttributesFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -17,6 +18,7 @@
         ]
     },
     "NtQueryFullAttributesFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -34,6 +36,7 @@
         ]
     },
     "NtCreateFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 11,
         "arguments": [
             {
@@ -105,6 +108,7 @@
         ]
     },
     "NtOpenFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -146,6 +150,7 @@
         ]
     },
     "NtReadFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 9,
         "arguments": [
             {
@@ -205,6 +210,7 @@
         ]
     },
     "NtWriteFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 9,
         "arguments": [
             {
@@ -264,6 +270,7 @@
         ]
     },
     "NtDeleteFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 1,
         "arguments": [
             {
@@ -275,6 +282,7 @@
         ]
     },
     "NtDeviceIoControlFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 10,
         "arguments": [
             {
@@ -340,6 +348,7 @@
         ]
     },
     "NtQueryDirectoryFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 11,
         "arguments": [
             {
@@ -411,6 +420,7 @@
         ]
     },
     "NtQueryVolumeInformationFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -446,6 +456,7 @@
         ]
     },
     "NtQueryInformationFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -481,6 +492,7 @@
         ]
     },
     "NtSetInformationFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -516,6 +528,7 @@
         ]
     },
     "NtOpenDirectoryObject": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -539,6 +552,7 @@
         ]
     },
     "NtCreateDirectoryObject": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -562,6 +576,7 @@
         ]
     },
     "NtQueryDirectoryObject": {
+        "return_type": "NTSTATUS",
         "n_arguments": 7,
         "arguments": [
             {
@@ -609,6 +624,7 @@
         ]
     },
     "MoveFileWithProgressW": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -644,6 +660,7 @@
         ]
     },
     "MoveFileWithProgressTransactedW": {
+        "return_type": "BOOL",
         "n_arguments": 6,
         "arguments": [
             {
@@ -685,6 +702,7 @@
         ]
     },
     "CreateDirectoryW": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -702,6 +720,7 @@
         ]
     },
     "CreateDirectoryExW": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -725,6 +744,7 @@
         ]
     },
     "RemoveDirectoryA": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -736,6 +756,7 @@
         ]
     },
     "RemoveDirectoryW": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -747,6 +768,7 @@
         ]
     },
     "CreateFileTransactedA": {
+        "return_type": "HANDLE",
         "n_arguments": 10,
         "arguments": [
             {
@@ -812,6 +834,7 @@
         ]
     },
     "CreateFileTransactedW": {
+        "return_type": "HANDLE",
         "n_arguments": 10,
         "arguments": [
             {
@@ -877,6 +900,7 @@
         ]
     },
     "FindFirstFileExA": {
+        "return_type": "HANDLE",
         "n_arguments": 6,
         "arguments": [
             {
@@ -918,6 +942,7 @@
         ]
     },
     "FindFirstFileExW": {
+        "return_type": "HANDLE",
         "n_arguments": 6,
         "arguments": [
             {
@@ -959,6 +984,7 @@
         ]
     },
     "FindNextFileW": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -976,6 +1002,7 @@
         ]
     },
     "CopyFileA": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -999,6 +1026,7 @@
         ]
     },
     "CopyFileW": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -1022,6 +1050,7 @@
         ]
     },
     "CopyFileExW": {
+        "return_type": "BOOL",
         "n_arguments": 6,
         "arguments": [
             {
@@ -1063,6 +1092,7 @@
         ]
     },
     "DeleteFileA": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -1074,6 +1104,7 @@
         ]
     },
     "DeleteFileW": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -1085,6 +1116,7 @@
         ]
     },
     "GetDiskFreeSpaceExA": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -1114,6 +1146,7 @@
         ]
     },
     "GetDiskFreeSpaceExW": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -1143,6 +1176,7 @@
         ]
     },
     "GetDiskFreeSpaceA": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -1178,6 +1212,7 @@
         ]
     },
     "GetDiskFreeSpaceW": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -1213,6 +1248,7 @@
         ]
     },
     "GetVolumeNameForVolumeMountPointW": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -1236,6 +1272,7 @@
         ]
     },
     "SHGetFolderPathW": {
+        "return_type": "HRESULT",
         "n_arguments": 5,
         "arguments": [
             {
@@ -1271,6 +1308,7 @@
         ]
     },
     "SHGetKnownFolderPath": {
+        "return_type": "HRESULT",
         "n_arguments": 4,
         "arguments": [
             {
@@ -1300,6 +1338,7 @@
         ]
     },
     "SHGetFileInfoW": {
+        "return_type": "DWORD_PTR",
         "n_arguments": 5,
         "arguments": [
             {
@@ -1335,6 +1374,7 @@
         ]
     },
     "GetFileVersionInfoW": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -1364,6 +1404,7 @@
         ]
     },
     "GetFileVersionInfoSizeW": {
+        "return_type": "DWORD",
         "n_arguments": 2,
         "arguments": [
             {
@@ -1381,6 +1422,7 @@
         ]
     },
     "FindFirstChangeNotificationW": {
+        "return_type": "HANDLE",
         "n_arguments": 3,
         "arguments": [
             {
@@ -1404,6 +1446,7 @@
         ]
     },
     "GetVolumeInformationByHandleW": {
+        "return_type": "BOOL",
         "n_arguments": 8,
         "arguments": [
             {
@@ -1457,6 +1500,7 @@
         ]
     },
     "RegOpenKeyExA": {
+        "return_type": "LONG",
         "n_arguments": 5,
         "arguments": [
             {
@@ -1492,6 +1536,7 @@
         ]
     },
     "RegOpenKeyExW": {
+        "return_type": "LONG",
         "n_arguments": 5,
         "arguments": [
             {
@@ -1527,6 +1572,7 @@
         ]
     },
     "RegCreateKeyExA": {
+        "return_type": "LONG",
         "n_arguments": 9,
         "arguments": [
             {
@@ -1586,6 +1632,7 @@
         ]
     },
     "RegCreateKeyExW": {
+        "return_type": "LONG",
         "n_arguments": 9,
         "arguments": [
             {
@@ -1645,6 +1692,7 @@
         ]
     },
     "RegDeleteKeyA": {
+        "return_type": "LONG",
         "n_arguments": 2,
         "arguments": [
             {
@@ -1662,6 +1710,7 @@
         ]
     },
     "RegDeleteKeyW": {
+        "return_type": "LONG",
         "n_arguments": 2,
         "arguments": [
             {
@@ -1679,6 +1728,7 @@
         ]
     },
     "RegDeleteKeyExW": {
+        "return_type": "LSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -1708,6 +1758,7 @@
         ]
     },
     "RegDeleteKeyExA": {
+        "return_type": "LSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -1737,6 +1788,7 @@
         ]
     },
     "RegEnumKeyW": {
+        "return_type": "LONG",
         "n_arguments": 4,
         "arguments": [
             {
@@ -1766,6 +1818,7 @@
         ]
     },
     "RegEnumKeyExA": {
+        "return_type": "LONG",
         "n_arguments": 8,
         "arguments": [
             {
@@ -1819,6 +1872,7 @@
         ]
     },
     "RegEnumKeyExW": {
+        "return_type": "LONG",
         "n_arguments": 8,
         "arguments": [
             {
@@ -1872,6 +1926,7 @@
         ]
     },
     "RegEnumValueA": {
+        "return_type": "LONG",
         "n_arguments": 8,
         "arguments": [
             {
@@ -1925,6 +1980,7 @@
         ]
     },
     "RegEnumValueW": {
+        "return_type": "LONG",
         "n_arguments": 8,
         "arguments": [
             {
@@ -1978,6 +2034,7 @@
         ]
     },
     "RegSetValueExA": {
+        "return_type": "LONG",
         "n_arguments": 6,
         "arguments": [
             {
@@ -2019,6 +2076,7 @@
         ]
     },
     "RegSetValueExW": {
+        "return_type": "LONG",
         "n_arguments": 6,
         "arguments": [
             {
@@ -2060,6 +2118,7 @@
         ]
     },
     "RegQueryValueExA": {
+        "return_type": "LONG",
         "n_arguments": 6,
         "arguments": [
             {
@@ -2101,6 +2160,7 @@
         ]
     },
     "RegQueryValueExW": {
+        "return_type": "LONG",
         "n_arguments": 6,
         "arguments": [
             {
@@ -2142,6 +2202,7 @@
         ]
     },
     "RegDeleteValueA": {
+        "return_type": "LONG",
         "n_arguments": 2,
         "arguments": [
             {
@@ -2159,6 +2220,7 @@
         ]
     },
     "RegDeleteValueW": {
+        "return_type": "LONG",
         "n_arguments": 2,
         "arguments": [
             {
@@ -2176,6 +2238,7 @@
         ]
     },
     "RegQueryInfoKeyA": {
+        "return_type": "LONG",
         "n_arguments": 12,
         "arguments": [
             {
@@ -2253,6 +2316,7 @@
         ]
     },
     "RegQueryInfoKeyW": {
+        "return_type": "LONG",
         "n_arguments": 12,
         "arguments": [
             {
@@ -2330,6 +2394,7 @@
         ]
     },
     "RegCloseKey": {
+        "return_type": "LONG",
         "n_arguments": 1,
         "arguments": [
             {
@@ -2341,6 +2406,7 @@
         ]
     },
     "RegNotifyChangeKeyValue": {
+        "return_type": "LONG",
         "n_arguments": 5,
         "arguments": [
             {
@@ -2376,6 +2442,7 @@
         ]
     },
     "NtCreateKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 7,
         "arguments": [
             {
@@ -2423,6 +2490,7 @@
         ]
     },
     "NtOpenKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -2446,6 +2514,7 @@
         ]
     },
     "NtOpenKeyEx": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -2475,6 +2544,7 @@
         ]
     },
     "NtRenameKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -2492,6 +2562,7 @@
         ]
     },
     "NtReplaceKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -2515,6 +2586,7 @@
         ]
     },
     "NtEnumerateKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -2556,6 +2628,7 @@
         ]
     },
     "NtEnumerateValueKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -2597,6 +2670,7 @@
         ]
     },
     "NtSetValueKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -2638,6 +2712,7 @@
         ]
     },
     "NtQueryValueKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -2679,6 +2754,7 @@
         ]
     },
     "NtQueryMultipleValueKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -2720,6 +2796,7 @@
         ]
     },
     "NtDeleteKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 1,
         "arguments": [
             {
@@ -2731,6 +2808,7 @@
         ]
     },
     "NtDeleteValueKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -2748,6 +2826,7 @@
         ]
     },
     "NtLoadKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -2765,6 +2844,7 @@
         ]
     },
     "NtLoadKey2": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -2788,6 +2868,7 @@
         ]
     },
     "NtLoadKeyEx": {
+        "return_type": "NTSTATUS",
         "n_arguments": 8,
         "arguments": [
             {
@@ -2841,6 +2922,7 @@
         ]
     },
     "NtQueryKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -2876,6 +2958,7 @@
         ]
     },
     "NtSaveKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -2893,6 +2976,7 @@
         ]
     },
     "NtSaveKeyEx": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -2916,6 +3000,7 @@
         ]
     },
     "CreateWindowExA": {
+        "return_type": "WINAPI",
         "n_arguments": 12,
         "arguments": [
             {
@@ -2993,6 +3078,7 @@
         ]
     },
     "CreateWindowExW": {
+        "return_type": "WINAPI",
         "n_arguments": 12,
         "arguments": [
             {
@@ -3070,6 +3156,7 @@
         ]
     },
     "FindWindowA": {
+        "return_type": "HWND",
         "n_arguments": 2,
         "arguments": [
             {
@@ -3087,6 +3174,7 @@
         ]
     },
     "FindWindowW": {
+        "return_type": "HWND",
         "n_arguments": 2,
         "arguments": [
             {
@@ -3104,6 +3192,7 @@
         ]
     },
     "FindWindowExA": {
+        "return_type": "HWND",
         "n_arguments": 4,
         "arguments": [
             {
@@ -3133,6 +3222,7 @@
         ]
     },
     "FindWindowExW": {
+        "return_type": "HWND",
         "n_arguments": 4,
         "arguments": [
             {
@@ -3162,6 +3252,7 @@
         ]
     },
     "EnumWindows": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -3179,6 +3270,7 @@
         ]
     },
     "PostMessageA": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -3208,6 +3300,7 @@
         ]
     },
     "PostMessageW": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -3237,6 +3330,7 @@
         ]
     },
     "PostThreadMessageA": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -3266,6 +3360,7 @@
         ]
     },
     "PostThreadMessageW": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -3295,6 +3390,7 @@
         ]
     },
     "SendMessageA": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -3324,6 +3420,7 @@
         ]
     },
     "SendMessageW": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -3353,6 +3450,7 @@
         ]
     },
     "SendNotifyMessageA": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -3382,6 +3480,7 @@
         ]
     },
     "SendNotifyMessageW": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -3411,6 +3510,7 @@
         ]
     },
     "SetWindowLongA": {
+        "return_type": "LONG",
         "n_arguments": 3,
         "arguments": [
             {
@@ -3434,6 +3534,7 @@
         ]
     },
     "SetWindowLongPtrA": {
+        "return_type": "LONG_PTR",
         "n_arguments": 3,
         "arguments": [
             {
@@ -3457,6 +3558,7 @@
         ]
     },
     "SetWindowLongW": {
+        "return_type": "LONG",
         "n_arguments": 3,
         "arguments": [
             {
@@ -3480,6 +3582,7 @@
         ]
     },
     "SetWindowLongPtrW": {
+        "return_type": "LONG_PTR",
         "n_arguments": 3,
         "arguments": [
             {
@@ -3503,6 +3606,7 @@
         ]
     },
     "NtCreateMutant": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -3532,6 +3636,7 @@
         ]
     },
     "NtOpenMutant": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -3555,6 +3660,7 @@
         ]
     },
     "NtReleaseMutant": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -3572,6 +3678,7 @@
         ]
     },
     "NtCreateEvent": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -3607,6 +3714,7 @@
         ]
     },
     "NtOpenEvent": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -3630,6 +3738,7 @@
         ]
     },
     "NtCreateNamedPipeFile": {
+        "return_type": "NTSTATUS",
         "n_arguments": 14,
         "arguments": [
             {
@@ -3719,6 +3828,7 @@
         ]
     },
     "NtAddAtom": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -3742,6 +3852,7 @@
         ]
     },
     "NtDeleteAtom": {
+        "return_type": "NTSTATUS",
         "n_arguments": 1,
         "arguments": [
             {
@@ -3753,6 +3864,7 @@
         ]
     },
     "NtFindAtom": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -3776,6 +3888,7 @@
         ]
     },
     "NtAddAtomEx": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -3805,6 +3918,7 @@
         ]
     },
     "NtQueryInformationAtom": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -3840,6 +3954,7 @@
         ]
     },
     "CreateToolhelp32Snapshot": {
+        "return_type": "HANDLE",
         "n_arguments": 2,
         "arguments": [
             {
@@ -3857,6 +3972,7 @@
         ]
     },
     "Process32FirstW": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -3874,6 +3990,7 @@
         ]
     },
     "Process32NextW": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -3891,6 +4008,7 @@
         ]
     },
     "Module32FirstW": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -3908,6 +4026,7 @@
         ]
     },
     "Module32NextW": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -3925,6 +4044,7 @@
         ]
     },
     "WinExec": {
+        "return_type": "UINT",
         "n_arguments": 2,
         "arguments": [
             {
@@ -3942,6 +4062,7 @@
         ]
     },
     "NtCreateProcess": {
+        "return_type": "NTSTATUS",
         "n_arguments": 8,
         "arguments": [
             {
@@ -3995,6 +4116,7 @@
         ]
     },
     "NtCreateProcessEx": {
+        "return_type": "NTSTATUS",
         "n_arguments": 9,
         "arguments": [
             {
@@ -4054,6 +4176,7 @@
         ]
     },
     "NtCreateUserProcess": {
+        "return_type": "NTSTATUS",
         "n_arguments": 11,
         "arguments": [
             {
@@ -4125,6 +4248,7 @@
         ]
     },
     "RtlCreateUserProcess": {
+        "return_type": "NTSTATUS",
         "n_arguments": 10,
         "arguments": [
             {
@@ -4190,6 +4314,7 @@
         ]
     },
     "NtOpenProcess": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -4219,6 +4344,7 @@
         ]
     },
     "NtOpenProcessToken": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -4242,6 +4368,7 @@
         ]
     },
     "NtQueryInformationToken": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -4277,6 +4404,7 @@
         ]
     },
     "NtTerminateProcess": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -4294,6 +4422,7 @@
         ]
     },
     "RtlReportSilentProcessExit": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -4311,6 +4440,7 @@
         ]
     },
     "NtResumeProcess": {
+        "return_type": "NTSTATUS",
         "n_arguments": 1,
         "arguments": [
             {
@@ -4322,6 +4452,7 @@
         ]
     },
     "NtCreateSection": {
+        "return_type": "NTSTATUS",
         "n_arguments": 7,
         "arguments": [
             {
@@ -4369,6 +4500,7 @@
         ]
     },
     "NtDuplicateObject": {
+        "return_type": "NTSTATUS",
         "n_arguments": 7,
         "arguments": [
             {
@@ -4416,6 +4548,7 @@
         ]
     },
     "NtMakeTemporaryObject": {
+        "return_type": "NTSTATUS",
         "n_arguments": 1,
         "arguments": [
             {
@@ -4427,6 +4560,7 @@
         ]
     },
     "NtMakePermanentObject": {
+        "return_type": "NTSTATUS",
         "n_arguments": 1,
         "arguments": [
             {
@@ -4438,6 +4572,7 @@
         ]
     },
     "NtOpenSection": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -4461,6 +4596,7 @@
         ]
     },
     "CreateProcessA": {
+        "return_type": "BOOL",
         "n_arguments": 10,
         "arguments": [
             {
@@ -4526,6 +4662,7 @@
         ]
     },
     "CreateProcessW": {
+        "return_type": "BOOL",
         "n_arguments": 10,
         "arguments": [
             {
@@ -4591,6 +4728,7 @@
         ]
     },
     "CreateProcessInternalW": {
+        "return_type": "BOOL",
         "n_arguments": 12,
         "arguments": [
             {
@@ -4668,6 +4806,7 @@
         ]
     },
     "WaitForDebugEvent": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -4685,6 +4824,7 @@
         ]
     },
     "DbgUiWaitStateChange": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -4702,6 +4842,7 @@
         ]
     },
     "RtlDispatchException": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -4719,6 +4860,7 @@
         ]
     },
     "NtRaiseException": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -4742,6 +4884,7 @@
         ]
     },
     "ShellExecuteExW": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -4753,6 +4896,7 @@
         ]
     },
     "GetLastError": {
+        "return_type": "DWORD",
         "n_arguments": 1,
         "arguments": [
             {
@@ -4764,6 +4908,7 @@
         ]
     },
     "CoCreateInstance": {
+        "return_type": "HRESULT",
         "n_arguments": 5,
         "arguments": [
             {
@@ -4799,6 +4944,7 @@
         ]
     },
     "CoCreateInstanceEx": {
+        "return_type": "HRESULT",
         "n_arguments": 6,
         "arguments": [
             {
@@ -4840,6 +4986,7 @@
         ]
     },
     "CoGetClassObject": {
+        "return_type": "HRESULT",
         "n_arguments": 5,
         "arguments": [
             {
@@ -4875,6 +5022,7 @@
         ]
     },
     "NtMapViewOfSection": {
+        "return_type": "NTSTATUS",
         "n_arguments": 10,
         "arguments": [
             {
@@ -4940,6 +5088,7 @@
         ]
     },
     "NtMapViewOfSectionEx": {
+        "return_type": "NTSTATUS",
         "n_arguments": 9,
         "arguments": [
             {
@@ -4999,6 +5148,7 @@
         ]
     },
     "NtUnmapViewOfSection": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -5016,6 +5166,7 @@
         ]
     },
     "NtUnmapViewOfSectionEx": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -5039,6 +5190,7 @@
         ]
     },
     "NtSetInformationProcess": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -5068,6 +5220,7 @@
         ]
     },
     "NtQueryInformationProcess": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -5103,6 +5256,7 @@
         ]
     },
     "LoadLibraryExW": {
+        "return_type": "HMODULE",
         "n_arguments": 3,
         "arguments": [
             {
@@ -5126,6 +5280,7 @@
         ]
     },
     "NtAllocateVirtualMemory": {
+        "return_type": "NTSTATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -5167,6 +5322,7 @@
         ]
     },
     "NtAllocateVirtualMemoryEx": {
+        "return_type": "NTSTATUS",
         "n_arguments": 7,
         "arguments": [
             {
@@ -5214,6 +5370,7 @@
         ]
     },
     "NtReadVirtualMemory": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -5249,6 +5406,7 @@
         ]
     },
     "ReadProcessMemory": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -5284,6 +5442,7 @@
         ]
     },
     "NtWriteVirtualMemory": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -5319,6 +5478,7 @@
         ]
     },
     "WriteProcessMemory": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -5354,6 +5514,7 @@
         ]
     },
     "NtWow64ReadVirtualMemory64": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -5389,6 +5550,7 @@
         ]
     },
     "NtWow64WriteVirtualMemory64": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -5424,6 +5586,7 @@
         ]
     },
     "NtProtectVirtualMemory": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -5459,6 +5622,7 @@
         ]
     },
     "VirtualProtectEx": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -5494,6 +5658,7 @@
         ]
     },
     "NtFreeVirtualMemory": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -5523,6 +5688,7 @@
         ]
     },
     "VirtualFreeEx": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -5552,6 +5718,7 @@
         ]
     },
     "system": {
+        "return_type": "int",
         "n_arguments": 1,
         "arguments": [
             {
@@ -5563,6 +5730,7 @@
         ]
     },
     "CreateProcessWithLogonW": {
+        "return_type": "BOOL",
         "n_arguments": 11,
         "arguments": [
             {
@@ -5634,6 +5802,7 @@
         ]
     },
     "CreateProcessWithTokenW": {
+        "return_type": "BOOL",
         "n_arguments": 9,
         "arguments": [
             {
@@ -5693,6 +5862,7 @@
         ]
     },
     "NtQueueApcThread": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -5728,6 +5898,7 @@
         ]
     },
     "NtQueueApcThreadEx": {
+        "return_type": "NTSTATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -5769,6 +5940,7 @@
         ]
     },
     "NtCreateThread": {
+        "return_type": "NTSTATUS",
         "n_arguments": 8,
         "arguments": [
             {
@@ -5822,6 +5994,7 @@
         ]
     },
     "NtCreateThreadEx": {
+        "return_type": "NTSTATUS",
         "n_arguments": 11,
         "arguments": [
             {
@@ -5893,6 +6066,7 @@
         ]
     },
     "NtOpenThread": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -5922,6 +6096,7 @@
         ]
     },
     "NtGetContextThread": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -5939,6 +6114,7 @@
         ]
     },
     "RtlWow64GetThreadContext": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -5956,6 +6132,7 @@
         ]
     },
     "NtSetContextThread": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -5973,6 +6150,7 @@
         ]
     },
     "NtSuspendThread": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -5990,6 +6168,7 @@
         ]
     },
     "NtResumeThread": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -6007,6 +6186,7 @@
         ]
     },
     "NtTerminateThread": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -6024,6 +6204,7 @@
         ]
     },
     "CreateThread": {
+        "return_type": "HANDLE",
         "n_arguments": 6,
         "arguments": [
             {
@@ -6065,6 +6246,7 @@
         ]
     },
     "CreateRemoteThread": {
+        "return_type": "HANDLE",
         "n_arguments": 7,
         "arguments": [
             {
@@ -6112,6 +6294,7 @@
         ]
     },
     "TerminateThread": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -6129,6 +6312,7 @@
         ]
     },
     "RtlCreateUserThread": {
+        "return_type": "NTSTATUS",
         "n_arguments": 10,
         "arguments": [
             {
@@ -6194,6 +6378,7 @@
         ]
     },
     "SaferIdentifyLevel": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -6223,6 +6408,7 @@
         ]
     },
     "RasValidateEntryNameW": {
+        "return_type": "DWORD",
         "n_arguments": 2,
         "arguments": [
             {
@@ -6240,6 +6426,7 @@
         ]
     },
     "RasConnectionNotificationW": {
+        "return_type": "DWORD",
         "n_arguments": 3,
         "arguments": [
             {
@@ -6263,6 +6450,7 @@
         ]
     },
     "GetSystemInfo": {
+        "return_type": "void",
         "n_arguments": 1,
         "arguments": [
             {
@@ -6274,6 +6462,7 @@
         ]
     },
     "RtlDecompressBuffer": {
+        "return_type": "NTSTATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -6315,6 +6504,7 @@
         ]
     },
     "RtlCompressBuffer": {
+        "return_type": "NTSTATUS",
         "n_arguments": 8,
         "arguments": [
             {
@@ -6368,6 +6558,7 @@
         ]
     },
     "NtLoadDriver": {
+        "return_type": "NTSTATUS",
         "n_arguments": 1,
         "arguments": [
             {
@@ -6379,6 +6570,7 @@
         ]
     },
     "GetAsyncKeyState": {
+        "return_type": "SHORT",
         "n_arguments": 1,
         "arguments": [
             {
@@ -6390,6 +6582,7 @@
         ]
     },
     "SetWindowsHookExA": {
+        "return_type": "HHOOK",
         "n_arguments": 4,
         "arguments": [
             {
@@ -6419,6 +6612,7 @@
         ]
     },
     "SetWindowsHookExW": {
+        "return_type": "HHOOK",
         "n_arguments": 4,
         "arguments": [
             {
@@ -6448,6 +6642,7 @@
         ]
     },
     "UnhookWindowsHookEx": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -6459,6 +6654,7 @@
         ]
     },
     "SetUnhandledExceptionFilter": {
+        "return_type": "LPTOP_LEVEL_EXCEPTION_FILTER",
         "n_arguments": 1,
         "arguments": [
             {
@@ -6470,6 +6666,7 @@
         ]
     },
     "RtlAddVectoredExceptionHandler": {
+        "return_type": "PVOID",
         "n_arguments": 2,
         "arguments": [
             {
@@ -6487,6 +6684,7 @@
         ]
     },
     "SetErrorMode": {
+        "return_type": "UINT",
         "n_arguments": 1,
         "arguments": [
             {
@@ -6498,6 +6696,7 @@
         ]
     },
     "LdrGetDllHandle": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -6527,6 +6726,7 @@
         ]
     },
     "LdrGetProcedureAddress": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -6556,6 +6756,7 @@
         ]
     },
     "LdrGetProcedureAddressForCaller": {
+        "return_type": "NTSTATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -6597,6 +6798,7 @@
         ]
     },
     "DeviceIoControl": {
+        "return_type": "BOOL",
         "n_arguments": 8,
         "arguments": [
             {
@@ -6650,6 +6852,7 @@
         ]
     },
     "NtSetTimer": {
+        "return_type": "NTSTATUS",
         "n_arguments": 7,
         "arguments": [
             {
@@ -6697,6 +6900,7 @@
         ]
     },
     "NtSetTimerEx": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -6726,6 +6930,7 @@
         ]
     },
     "NtDelayExecution": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -6743,6 +6948,7 @@
         ]
     },
     "timeGetTime": {
+        "return_type": "DWORD",
         "n_arguments": 1,
         "arguments": [
             {
@@ -6754,6 +6960,7 @@
         ]
     },
     "MsgWaitForMultipleObjectsEx": {
+        "return_type": "DWORD",
         "n_arguments": 5,
         "arguments": [
             {
@@ -6789,6 +6996,7 @@
         ]
     },
     "ExitWindowsEx": {
+        "return_type": "WINAPI",
         "n_arguments": 2,
         "arguments": [
             {
@@ -6806,6 +7014,7 @@
         ]
     },
     "InitiateShutdownW": {
+        "return_type": "WINAPI",
         "n_arguments": 5,
         "arguments": [
             {
@@ -6841,6 +7050,7 @@
         ]
     },
     "InitiateSystemShutdownW": {
+        "return_type": "WINAPI",
         "n_arguments": 5,
         "arguments": [
             {
@@ -6876,6 +7086,7 @@
         ]
     },
     "InitiateSystemShutdownExW": {
+        "return_type": "WINAPI",
         "n_arguments": 6,
         "arguments": [
             {
@@ -6917,6 +7128,7 @@
         ]
     },
     "NtRaiseHardError": {
+        "return_type": "WINAPI",
         "n_arguments": 6,
         "arguments": [
             {
@@ -6958,6 +7170,7 @@
         ]
     },
     "NtShutdownSystem": {
+        "return_type": "WINAPI",
         "n_arguments": 1,
         "arguments": [
             {
@@ -6969,6 +7182,7 @@
         ]
     },
     "NtSetSystemPowerState": {
+        "return_type": "WINAPI",
         "n_arguments": 3,
         "arguments": [
             {
@@ -6992,6 +7206,7 @@
         ]
     },
     "IsDebuggerPresent": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -7003,6 +7218,7 @@
         ]
     },
     "LookupPrivilegeValueW": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -7026,6 +7242,7 @@
         ]
     },
     "GetCurrentHwProfileW": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -7037,6 +7254,7 @@
         ]
     },
     "IsUserAdmin": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -7048,6 +7266,7 @@
         ]
     },
     "NtClose": {
+        "return_type": "NTSTATUS",
         "n_arguments": 1,
         "arguments": [
             {
@@ -7059,6 +7278,7 @@
         ]
     },
     "WriteConsoleA": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -7094,6 +7314,7 @@
         ]
     },
     "WriteConsoleW": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -7129,6 +7350,7 @@
         ]
     },
     "GetSystemMetrics": {
+        "return_type": "int",
         "n_arguments": 1,
         "arguments": [
             {
@@ -7140,6 +7362,7 @@
         ]
     },
     "GetCursorPos": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -7151,6 +7374,7 @@
         ]
     },
     "GetComputerNameA": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -7168,6 +7392,7 @@
         ]
     },
     "GetComputerNameW": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -7185,6 +7410,7 @@
         ]
     },
     "GetComputerNameExW": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -7208,6 +7434,7 @@
         ]
     },
     "GetUserNameA": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -7225,6 +7452,7 @@
         ]
     },
     "GetUserNameW": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -7242,6 +7470,7 @@
         ]
     },
     "memcpy": {
+        "return_type": "void",
         "n_arguments": 3,
         "arguments": [
             {
@@ -7265,6 +7494,7 @@
         ]
     },
     "SetupDiGetClassDevsA": {
+        "return_type": "HDEVINFO",
         "n_arguments": 4,
         "arguments": [
             {
@@ -7294,6 +7524,7 @@
         ]
     },
     "SetupDiGetClassDevsW": {
+        "return_type": "HDEVINFO",
         "n_arguments": 4,
         "arguments": [
             {
@@ -7323,6 +7554,7 @@
         ]
     },
     "SetupDiGetDeviceRegistryPropertyA": {
+        "return_type": "BOOL",
         "n_arguments": 7,
         "arguments": [
             {
@@ -7370,6 +7602,7 @@
         ]
     },
     "SetupDiGetDeviceRegistryPropertyW": {
+        "return_type": "BOOL",
         "n_arguments": 7,
         "arguments": [
             {
@@ -7417,6 +7650,7 @@
         ]
     },
     "SetupDiBuildDriverInfoList": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -7440,6 +7674,7 @@
         ]
     },
     "DecodeImageEx": {
+        "return_type": "HRESULT",
         "n_arguments": 2,
         "arguments": [
             {
@@ -7457,6 +7692,7 @@
         ]
     },
     "DecodeImage": {
+        "return_type": "HRESULT",
         "n_arguments": 2,
         "arguments": [
             {
@@ -7474,6 +7710,7 @@
         ]
     },
     "LsaOpenPolicy": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -7503,6 +7740,7 @@
         ]
     },
     "WNetGetProviderNameW": {
+        "return_type": "DWORD",
         "n_arguments": 3,
         "arguments": [
             {
@@ -7526,6 +7764,7 @@
         ]
     },
     "SystemTimeToTzSpecificLocalTime": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -7549,6 +7788,7 @@
         ]
     },
     "CLSIDFromProgID": {
+        "return_type": "HRESULT",
         "n_arguments": 2,
         "arguments": [
             {
@@ -7566,6 +7806,7 @@
         ]
     },
     "GlobalMemoryStatus": {
+        "return_type": "void",
         "n_arguments": 1,
         "arguments": [
             {
@@ -7577,6 +7818,7 @@
         ]
     },
     "GlobalMemoryStatusEx": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -7588,6 +7830,7 @@
         ]
     },
     "SystemParametersInfoA": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -7617,6 +7860,7 @@
         ]
     },
     "SystemParametersInfoW": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -7646,6 +7890,7 @@
         ]
     },
     "PStoreCreateInstance": {
+        "return_type": "HRESULT",
         "n_arguments": 4,
         "arguments": [
             {
@@ -7675,6 +7920,7 @@
         ]
     },
     "InternetConfirmZoneCrossingA": {
+        "return_type": "DWORD",
         "n_arguments": 4,
         "arguments": [
             {
@@ -7704,6 +7950,7 @@
         ]
     },
     "InternetConfirmZoneCrossingW": {
+        "return_type": "DWORD",
         "n_arguments": 4,
         "arguments": [
             {
@@ -7733,6 +7980,7 @@
         ]
     },
     "SslEncryptPacket": {
+        "return_type": "SECURITY_STATUS",
         "n_arguments": 10,
         "arguments": [
             {
@@ -7798,6 +8046,7 @@
         ]
     },
     "SslDecryptPacket": {
+        "return_type": "SECURITY_STATUS",
         "n_arguments": 9,
         "arguments": [
             {
@@ -7857,6 +8106,7 @@
         ]
     },
     "WinHttpSendRequest": {
+        "return_type": "BOOL",
         "n_arguments": 7,
         "arguments": [
             {
@@ -7904,6 +8154,7 @@
         ]
     },
     "WinHttpReceiveResponse": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -7921,6 +8172,7 @@
         ]
     },
     "WinHttpQueryHeaders": {
+        "return_type": "BOOL",
         "n_arguments": 6,
         "arguments": [
             {
@@ -7962,6 +8214,7 @@
         ]
     },
     "WinHttpOpen": {
+        "return_type": "HINTERNET",
         "n_arguments": 5,
         "arguments": [
             {
@@ -7997,6 +8250,7 @@
         ]
     },
     "WinHttpGetIEProxyConfigForCurrentUser": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -8008,6 +8262,7 @@
         ]
     },
     "WinHttpGetProxyForUrl": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -8031,6 +8286,7 @@
         ]
     },
     "WinHttpSetOption": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -8060,6 +8316,7 @@
         ]
     },
     "WinHttpConnect": {
+        "return_type": "HINTERNET",
         "n_arguments": 4,
         "arguments": [
             {
@@ -8089,6 +8346,7 @@
         ]
     },
     "WinHttpOpenRequest": {
+        "return_type": "HINTERNET",
         "n_arguments": 7,
         "arguments": [
             {
@@ -8136,6 +8394,7 @@
         ]
     },
     "WinHttpSetTimeouts": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -8171,6 +8430,7 @@
         ]
     },
     "NetUserGetInfo": {
+        "return_type": "DWORD",
         "n_arguments": 4,
         "arguments": [
             {
@@ -8200,6 +8460,7 @@
         ]
     },
     "ObtainUserAgentString": {
+        "return_type": "HRESULT",
         "n_arguments": 3,
         "arguments": [
             {
@@ -8223,6 +8484,7 @@
         ]
     },
     "URLDownloadToFileW": {
+        "return_type": "HRESULT",
         "n_arguments": 5,
         "arguments": [
             {
@@ -8258,6 +8520,7 @@
         ]
     },
     "URLDownloadToCacheFileW": {
+        "return_type": "HRESULT",
         "n_arguments": 6,
         "arguments": [
             {
@@ -8299,6 +8562,7 @@
         ]
     },
     "InternetGetConnectedState": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -8316,6 +8580,7 @@
         ]
     },
     "InternetOpenA": {
+        "return_type": "HINTERNET",
         "n_arguments": 5,
         "arguments": [
             {
@@ -8351,6 +8616,7 @@
         ]
     },
     "InternetOpenW": {
+        "return_type": "HINTERNET",
         "n_arguments": 5,
         "arguments": [
             {
@@ -8386,6 +8652,7 @@
         ]
     },
     "InternetConnectA": {
+        "return_type": "HINTERNET",
         "n_arguments": 8,
         "arguments": [
             {
@@ -8439,6 +8706,7 @@
         ]
     },
     "InternetConnectW": {
+        "return_type": "HINTERNET",
         "n_arguments": 8,
         "arguments": [
             {
@@ -8492,6 +8760,7 @@
         ]
     },
     "InternetOpenUrlA": {
+        "return_type": "HINTERNET",
         "n_arguments": 6,
         "arguments": [
             {
@@ -8533,6 +8802,7 @@
         ]
     },
     "InternetOpenUrlW": {
+        "return_type": "HINTERNET",
         "n_arguments": 6,
         "arguments": [
             {
@@ -8574,6 +8844,7 @@
         ]
     },
     "InternetCrackUrlA": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -8603,6 +8874,7 @@
         ]
     },
     "InternetCrackUrlW": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -8632,6 +8904,7 @@
         ]
     },
     "HttpOpenRequestA": {
+        "return_type": "HINTERNET",
         "n_arguments": 8,
         "arguments": [
             {
@@ -8685,6 +8958,7 @@
         ]
     },
     "HttpOpenRequestW": {
+        "return_type": "HINTERNET",
         "n_arguments": 8,
         "arguments": [
             {
@@ -8738,6 +9012,7 @@
         ]
     },
     "HttpSendRequestA": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -8773,6 +9048,7 @@
         ]
     },
     "HttpSendRequestW": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -8808,6 +9084,7 @@
         ]
     },
     "HttpSendRequestExA": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -8843,6 +9120,7 @@
         ]
     },
     "HttpSendRequestExW": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -8878,6 +9156,7 @@
         ]
     },
     "HttpAddRequestHeadersA": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -8907,6 +9186,7 @@
         ]
     },
     "HttpAddRequestHeadersW": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -8936,6 +9216,7 @@
         ]
     },
     "HttpQueryInfoA": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -8971,6 +9252,7 @@
         ]
     },
     "HttpQueryInfoW": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -9006,6 +9288,7 @@
         ]
     },
     "InternetReadFile": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -9035,6 +9318,7 @@
         ]
     },
     "InternetWriteFile": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -9064,6 +9348,7 @@
         ]
     },
     "InternetCloseHandle": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -9075,6 +9360,7 @@
         ]
     },
     "InternetSetOptionA": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -9104,6 +9390,7 @@
         ]
     },
     "DnsQuery_A": {
+        "return_type": "DNS_STATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -9145,6 +9432,7 @@
         ]
     },
     "DnsQuery_UTF8": {
+        "return_type": "DNS_STATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -9186,6 +9474,7 @@
         ]
     },
     "DnsQuery_W": {
+        "return_type": "DNS_STATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -9227,6 +9516,7 @@
         ]
     },
     "getaddrinfo": {
+        "return_type": "int",
         "n_arguments": 4,
         "arguments": [
             {
@@ -9256,6 +9546,7 @@
         ]
     },
     "GetAddrInfoW": {
+        "return_type": "int",
         "n_arguments": 4,
         "arguments": [
             {
@@ -9285,6 +9576,7 @@
         ]
     },
     "WNetUseConnectionW": {
+        "return_type": "DWORD",
         "n_arguments": 8,
         "arguments": [
             {
@@ -9338,6 +9630,7 @@
         ]
     },
     "CryptRetrieveObjectByUrlW": {
+        "return_type": "BOOL",
         "n_arguments": 9,
         "arguments": [
             {
@@ -9397,6 +9690,7 @@
         ]
     },
     "GetAdaptersAddresses": {
+        "return_type": "ULONG",
         "n_arguments": 4,
         "arguments": [
             {
@@ -9426,6 +9720,7 @@
         ]
     },
     "GetAdaptersInfo": {
+        "return_type": "DWORD",
         "n_arguments": 1,
         "arguments": [
             {
@@ -9437,6 +9732,7 @@
         ]
     },
     "NetGetJoinInformation": {
+        "return_type": "ULONG",
         "n_arguments": 3,
         "arguments": [
             {
@@ -9460,6 +9756,7 @@
         ]
     },
     "NetUserGetLocalGroups": {
+        "return_type": "ULONG",
         "n_arguments": 8,
         "arguments": [
             {
@@ -9513,6 +9810,7 @@
         ]
     },
     "CoInternetSetFeatureEnabled": {
+        "return_type": "HRESULT",
         "n_arguments": 3,
         "arguments": [
             {
@@ -9536,6 +9834,7 @@
         ]
     },
     "NSPStartup": {
+        "return_type": "int",
         "n_arguments": 2,
         "arguments": [
             {
@@ -9553,6 +9852,7 @@
         ]
     },
     "HttpEndRequestA": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -9582,6 +9882,7 @@
         ]
     },
     "HttpEndRequestW": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -9611,6 +9912,7 @@
         ]
     },
     "OpenSCManagerA": {
+        "return_type": "SC_HANDLE",
         "n_arguments": 3,
         "arguments": [
             {
@@ -9634,6 +9936,7 @@
         ]
     },
     "OpenSCManagerW": {
+        "return_type": "SC_HANDLE",
         "n_arguments": 3,
         "arguments": [
             {
@@ -9657,6 +9960,7 @@
         ]
     },
     "CreateServiceA": {
+        "return_type": "SC_HANDLE",
         "n_arguments": 13,
         "arguments": [
             {
@@ -9740,6 +10044,7 @@
         ]
     },
     "CreateServiceW": {
+        "return_type": "SC_HANDLE",
         "n_arguments": 13,
         "arguments": [
             {
@@ -9823,6 +10128,7 @@
         ]
     },
     "OpenServiceA": {
+        "return_type": "SC_HANDLE",
         "n_arguments": 3,
         "arguments": [
             {
@@ -9846,6 +10152,7 @@
         ]
     },
     "OpenServiceW": {
+        "return_type": "SC_HANDLE",
         "n_arguments": 3,
         "arguments": [
             {
@@ -9869,6 +10176,7 @@
         ]
     },
     "StartServiceA": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -9892,6 +10200,7 @@
         ]
     },
     "StartServiceW": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -9915,6 +10224,7 @@
         ]
     },
     "ControlService": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -9938,6 +10248,7 @@
         ]
     },
     "DeleteService": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -9949,6 +10260,7 @@
         ]
     },
     "GetLastInputInfo": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -9960,6 +10272,7 @@
         ]
     },
     "NtWaitForSingleObject": {
+        "return_type": "NTSTATUS",
         "n_arguments": 3,
         "arguments": [
             {
@@ -9983,6 +10296,7 @@
         ]
     },
     "GetLocalTime": {
+        "return_type": "void",
         "n_arguments": 1,
         "arguments": [
             {
@@ -9994,6 +10308,7 @@
         ]
     },
     "GetSystemTime": {
+        "return_type": "void",
         "n_arguments": 1,
         "arguments": [
             {
@@ -10005,6 +10320,7 @@
         ]
     },
     "GetTickCount": {
+        "return_type": "DWORD",
         "n_arguments": 1,
         "arguments": [
             {
@@ -10016,6 +10332,7 @@
         ]
     },
     "GetTickCount64": {
+        "return_type": "ULONGLONG",
         "n_arguments": 1,
         "arguments": [
             {
@@ -10027,6 +10344,7 @@
         ]
     },
     "NtQuerySystemTime": {
+        "return_type": "NTSTATUS",
         "n_arguments": 1,
         "arguments": [
             {
@@ -10038,6 +10356,7 @@
         ]
     },
     "GetSystemTimeAsFileTime": {
+        "return_type": "void",
         "n_arguments": 1,
         "arguments": [
             {
@@ -10049,6 +10368,7 @@
         ]
     },
     "NtQueryPerformanceCounter": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -10066,6 +10386,7 @@
         ]
     },
     "CreateTimerQueueTimer": {
+        "return_type": "BOOL",
         "n_arguments": 7,
         "arguments": [
             {
@@ -10113,6 +10434,7 @@
         ]
     },
     "WSAStartup": {
+        "return_type": "int",
         "n_arguments": 2,
         "arguments": [
             {
@@ -10130,6 +10452,7 @@
         ]
     },
     "gethostbyname": {
+        "return_type": "struct hostent *",
         "n_arguments": 1,
         "arguments": [
             {
@@ -10141,6 +10464,7 @@
         ]
     },
     "gethostname": {
+        "return_type": "int",
         "n_arguments": 2,
         "arguments": [
             {
@@ -10158,6 +10482,7 @@
         ]
     },
     "socket": {
+        "return_type": "SOCKET",
         "n_arguments": 3,
         "arguments": [
             {
@@ -10181,6 +10506,7 @@
         ]
     },
     "connect": {
+        "return_type": "int",
         "n_arguments": 3,
         "arguments": [
             {
@@ -10204,6 +10530,7 @@
         ]
     },
     "send": {
+        "return_type": "int",
         "n_arguments": 4,
         "arguments": [
             {
@@ -10233,6 +10560,7 @@
         ]
     },
     "sendto": {
+        "return_type": "int",
         "n_arguments": 6,
         "arguments": [
             {
@@ -10274,6 +10602,7 @@
         ]
     },
     "recv": {
+        "return_type": "int",
         "n_arguments": 4,
         "arguments": [
             {
@@ -10303,6 +10632,7 @@
         ]
     },
     "recvfrom": {
+        "return_type": "int",
         "n_arguments": 6,
         "arguments": [
             {
@@ -10344,6 +10674,7 @@
         ]
     },
     "accept": {
+        "return_type": "SOCKET",
         "n_arguments": 3,
         "arguments": [
             {
@@ -10367,6 +10698,7 @@
         ]
     },
     "bind": {
+        "return_type": "int",
         "n_arguments": 3,
         "arguments": [
             {
@@ -10390,6 +10722,7 @@
         ]
     },
     "listen": {
+        "return_type": "int",
         "n_arguments": 2,
         "arguments": [
             {
@@ -10407,6 +10740,7 @@
         ]
     },
     "select": {
+        "return_type": "int",
         "n_arguments": 5,
         "arguments": [
             {
@@ -10442,6 +10776,7 @@
         ]
     },
     "setsockopt": {
+        "return_type": "int",
         "n_arguments": 5,
         "arguments": [
             {
@@ -10477,6 +10812,7 @@
         ]
     },
     "ioctlsocket": {
+        "return_type": "int",
         "n_arguments": 3,
         "arguments": [
             {
@@ -10500,6 +10836,7 @@
         ]
     },
     "closesocket": {
+        "return_type": "int",
         "n_arguments": 1,
         "arguments": [
             {
@@ -10511,6 +10848,7 @@
         ]
     },
     "shutdown": {
+        "return_type": "int",
         "n_arguments": 2,
         "arguments": [
             {
@@ -10528,6 +10866,7 @@
         ]
     },
     "WSAAccept": {
+        "return_type": "SOCKET",
         "n_arguments": 5,
         "arguments": [
             {
@@ -10563,6 +10902,7 @@
         ]
     },
     "WSARecv": {
+        "return_type": "int",
         "n_arguments": 7,
         "arguments": [
             {
@@ -10610,6 +10950,7 @@
         ]
     },
     "WSARecvFrom": {
+        "return_type": "int",
         "n_arguments": 9,
         "arguments": [
             {
@@ -10669,6 +11010,7 @@
         ]
     },
     "WSASend": {
+        "return_type": "int",
         "n_arguments": 7,
         "arguments": [
             {
@@ -10716,6 +11058,7 @@
         ]
     },
     "WSASendTo": {
+        "return_type": "int",
         "n_arguments": 9,
         "arguments": [
             {
@@ -10775,6 +11118,7 @@
         ]
     },
     "WSASocketA": {
+        "return_type": "SOCKET",
         "n_arguments": 6,
         "arguments": [
             {
@@ -10816,6 +11160,7 @@
         ]
     },
     "WSASocketW": {
+        "return_type": "SOCKET",
         "n_arguments": 6,
         "arguments": [
             {
@@ -10857,6 +11202,7 @@
         ]
     },
     "WSAConnect": {
+        "return_type": "int",
         "n_arguments": 7,
         "arguments": [
             {
@@ -10904,6 +11250,7 @@
         ]
     },
     "WSAConnectByList": {
+        "return_type": "BOOL",
         "n_arguments": 8,
         "arguments": [
             {
@@ -10957,6 +11304,7 @@
         ]
     },
     "WSAConnectByNameW": {
+        "return_type": "BOOL",
         "n_arguments": 9,
         "arguments": [
             {
@@ -11016,6 +11364,7 @@
         ]
     },
     "WSASendMsg": {
+        "return_type": "int",
         "n_arguments": 6,
         "arguments": [
             {
@@ -11057,6 +11406,7 @@
         ]
     },
     "ConnectEx": {
+        "return_type": "BOOL",
         "n_arguments": 7,
         "arguments": [
             {
@@ -11104,6 +11454,7 @@
         ]
     },
     "TransmitFile": {
+        "return_type": "BOOL",
         "n_arguments": 7,
         "arguments": [
             {
@@ -11151,6 +11502,7 @@
         ]
     },
     "CryptAcquireContextA": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -11186,6 +11538,7 @@
         ]
     },
     "CryptAcquireContextW": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -11221,6 +11574,7 @@
         ]
     },
     "CryptProtectData": {
+        "return_type": "BOOL",
         "n_arguments": 7,
         "arguments": [
             {
@@ -11268,6 +11622,7 @@
         ]
     },
     "CryptUnprotectData": {
+        "return_type": "BOOL",
         "n_arguments": 7,
         "arguments": [
             {
@@ -11315,6 +11670,7 @@
         ]
     },
     "CryptProtectMemory": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -11338,6 +11694,7 @@
         ]
     },
     "CryptUnprotectMemory": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -11361,6 +11718,7 @@
         ]
     },
     "CryptDecrypt": {
+        "return_type": "BOOL",
         "n_arguments": 6,
         "arguments": [
             {
@@ -11402,6 +11760,7 @@
         ]
     },
     "CryptEncrypt": {
+        "return_type": "BOOL",
         "n_arguments": 7,
         "arguments": [
             {
@@ -11449,6 +11808,7 @@
         ]
     },
     "CryptHashData": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -11478,6 +11838,7 @@
         ]
     },
     "CryptDecodeMessage": {
+        "return_type": "BOOL",
         "n_arguments": 13,
         "arguments": [
             {
@@ -11561,6 +11922,7 @@
         ]
     },
     "CryptDecryptMessage": {
+        "return_type": "BOOL",
         "n_arguments": 6,
         "arguments": [
             {
@@ -11602,6 +11964,7 @@
         ]
     },
     "CryptEncryptMessage": {
+        "return_type": "BOOL",
         "n_arguments": 7,
         "arguments": [
             {
@@ -11649,6 +12012,7 @@
         ]
     },
     "CryptHashMessage": {
+        "return_type": "BOOL",
         "n_arguments": 9,
         "arguments": [
             {
@@ -11708,6 +12072,7 @@
         ]
     },
     "CryptDeriveKey": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -11743,6 +12108,7 @@
         ]
     },
     "CryptExportKey": {
+        "return_type": "BOOL",
         "n_arguments": 6,
         "arguments": [
             {
@@ -11784,6 +12150,7 @@
         ]
     },
     "CryptDestroyKey": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -11795,6 +12162,7 @@
         ]
     },
     "CryptGenKey": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -11824,6 +12192,7 @@
         ]
     },
     "CryptCreateHash": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -11859,6 +12228,7 @@
         ]
     },
     "CryptDestroyHash": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -11870,6 +12240,7 @@
         ]
     },
     "CryptEnumProvidersA": {
+        "return_type": "BOOL",
         "n_arguments": 6,
         "arguments": [
             {
@@ -11911,6 +12282,7 @@
         ]
     },
     "CryptEnumProvidersW": {
+        "return_type": "BOOL",
         "n_arguments": 6,
         "arguments": [
             {
@@ -11952,6 +12324,7 @@
         ]
     },
     "HTTPSCertificateTrust": {
+        "return_type": "HRESULT",
         "n_arguments": 1,
         "arguments": [
             {
@@ -11963,6 +12336,7 @@
         ]
     },
     "HTTPSFinalProv": {
+        "return_type": "HRESULT",
         "n_arguments": 1,
         "arguments": [
             {
@@ -11974,6 +12348,7 @@
         ]
     },
     "CryptDecodeObjectEx": {
+        "return_type": "BOOL",
         "n_arguments": 8,
         "arguments": [
             {
@@ -12027,6 +12402,7 @@
         ]
     },
     "CryptImportPublicKeyInfo": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -12056,6 +12432,7 @@
         ]
     },
     "CryptHashSessionKey": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -12079,6 +12456,7 @@
         ]
     },
     "QueryUsersOnEncryptedFile": {
+        "return_type": "DWORD",
         "n_arguments": 2,
         "arguments": [
             {
@@ -12096,6 +12474,7 @@
         ]
     },
     "CryptGenRandom": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -12119,6 +12498,7 @@
         ]
     },
     "NCryptImportKey": {
+        "return_type": "SECURITY_STATUS",
         "n_arguments": 8,
         "arguments": [
             {
@@ -12172,6 +12552,7 @@
         ]
     },
     "NCryptDecrypt": {
+        "return_type": "SECURITY_STATUS",
         "n_arguments": 8,
         "arguments": [
             {
@@ -12225,6 +12606,7 @@
         ]
     },
     "NCryptEncrypt": {
+        "return_type": "SECURITY_STATUS",
         "n_arguments": 8,
         "arguments": [
             {
@@ -12278,6 +12660,7 @@
         ]
     },
     "BCryptImportKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 9,
         "arguments": [
             {
@@ -12337,6 +12720,7 @@
         ]
     },
     "BCryptImportKeyPair": {
+        "return_type": "NTSTATUS",
         "n_arguments": 7,
         "arguments": [
             {
@@ -12384,6 +12768,7 @@
         ]
     },
     "BCryptDecrypt": {
+        "return_type": "NTSTATUS",
         "n_arguments": 10,
         "arguments": [
             {
@@ -12449,6 +12834,7 @@
         ]
     },
     "BCryptEncrypt": {
+        "return_type": "NTSTATUS",
         "n_arguments": 10,
         "arguments": [
             {
@@ -12514,6 +12900,7 @@
         ]
     },
     "LdrLoadDll": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -12543,6 +12930,7 @@
         ]
     },
     "LdrUnloadDll": {
+        "return_type": "WINAPI",
         "n_arguments": 1,
         "arguments": [
             {
@@ -12554,6 +12942,7 @@
         ]
     },
     "JsEval": {
+        "return_type": "WINAPI",
         "n_arguments": 5,
         "arguments": [
             {
@@ -12589,6 +12978,7 @@
         ]
     },
     "COleScript_ParseScriptText": {
+        "return_type": "int",
         "n_arguments": 10,
         "arguments": [
             {
@@ -12654,6 +13044,7 @@
         ]
     },
     "JsParseScript": {
+        "return_type": "PVOID",
         "n_arguments": 4,
         "arguments": [
             {
@@ -12683,6 +13074,7 @@
         ]
     },
     "JsRunScript": {
+        "return_type": "WINAPI",
         "n_arguments": 4,
         "arguments": [
             {
@@ -12712,6 +13104,7 @@
         ]
     },
     "CDocument_write": {
+        "return_type": "int",
         "n_arguments": 2,
         "arguments": [
             {
@@ -12729,6 +13122,7 @@
         ]
     },
     "NtQuerySystemInformation": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -12758,6 +13152,7 @@
         ]
     },
     "srand": {
+        "return_type": "void",
         "n_arguments": 1,
         "arguments": [
             {
@@ -12769,6 +13164,7 @@
         ]
     },
     "NtSetInformationThread": {
+        "return_type": "NTSTATUS",
         "n_arguments": 4,
         "arguments": [
             {
@@ -12798,6 +13194,7 @@
         ]
     },
     "NtQueryInformationThread": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -12833,6 +13230,7 @@
         ]
     },
     "lstrcpynA": {
+        "return_type": "LPSTR",
         "n_arguments": 3,
         "arguments": [
             {
@@ -12856,6 +13254,7 @@
         ]
     },
     "lstrcmpiA": {
+        "return_type": "int",
         "n_arguments": 2,
         "arguments": [
             {
@@ -12873,6 +13272,7 @@
         ]
     },
     "FindResourceExA": {
+        "return_type": "HRSRC",
         "n_arguments": 4,
         "arguments": [
             {
@@ -12902,6 +13302,7 @@
         ]
     },
     "FindResourceExW": {
+        "return_type": "HRSRC",
         "n_arguments": 4,
         "arguments": [
             {
@@ -12931,6 +13332,7 @@
         ]
     },
     "LoadResource": {
+        "return_type": "HGLOBAL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -12948,6 +13350,7 @@
         ]
     },
     "LockResource": {
+        "return_type": "LPVOID",
         "n_arguments": 1,
         "arguments": [
             {
@@ -12959,6 +13362,7 @@
         ]
     },
     "SizeofResource": {
+        "return_type": "DWORD",
         "n_arguments": 2,
         "arguments": [
             {
@@ -12976,6 +13380,7 @@
         ]
     },
     "EnumResourceTypesExA": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -13011,6 +13416,7 @@
         ]
     },
     "EnumResourceTypesExW": {
+        "return_type": "BOOL",
         "n_arguments": 5,
         "arguments": [
             {
@@ -13046,6 +13452,7 @@
         ]
     },
     "EnumCalendarInfoA": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -13075,6 +13482,7 @@
         ]
     },
     "EnumCalendarInfoW": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -13104,6 +13512,7 @@
         ]
     },
     "EnumTimeFormatsA": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -13127,6 +13536,7 @@
         ]
     },
     "EnumTimeFormatsW": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -13150,6 +13560,7 @@
         ]
     },
     "NtCreateTransaction": {
+        "return_type": "NTSTATUS",
         "n_arguments": 10,
         "arguments": [
             {
@@ -13215,6 +13626,7 @@
         ]
     },
     "NtOpenTransaction": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -13250,6 +13662,7 @@
         ]
     },
     "NtRollbackTransaction": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -13267,6 +13680,7 @@
         ]
     },
     "NtCommitTransaction": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -13284,6 +13698,7 @@
         ]
     },
     "RtlSetCurrentTransaction": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -13295,6 +13710,7 @@
         ]
     },
     "NtYieldExecution": {
+        "return_type": "NTSTATUS",
         "n_arguments": 1,
         "arguments": [
             {
@@ -13306,6 +13722,7 @@
         ]
     },
     "RtlMoveMemory": {
+        "return_type": "VOID",
         "n_arguments": 3,
         "arguments": [
             {
@@ -13329,6 +13746,7 @@
         ]
     },
     "OleConvertOLESTREAMToIStorage": {
+        "return_type": "HRESULT",
         "n_arguments": 3,
         "arguments": [
             {
@@ -13352,6 +13770,7 @@
         ]
     },
     "ChangeWindowMessageFilter": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -13369,6 +13788,7 @@
         ]
     },
     "rtcEnvironBstr": {
+        "return_type": "LPWSTR",
         "n_arguments": 1,
         "arguments": [
             {
@@ -13380,6 +13800,7 @@
         ]
     },
     "CryptImportKey": {
+        "return_type": "BOOL",
         "n_arguments": 6,
         "arguments": [
             {
@@ -13421,6 +13842,7 @@
         ]
     },
     "HeapCreate": {
+        "return_type": "HANDLE",
         "n_arguments": 3,
         "arguments": [
             {
@@ -13444,6 +13866,7 @@
         ]
     },
     "GetKeyboardLayout": {
+        "return_type": "HKL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -13455,6 +13878,7 @@
         ]
     },
     "OutputDebugStringA": {
+        "return_type": "void",
         "n_arguments": 1,
         "arguments": [
             {
@@ -13466,6 +13890,7 @@
         ]
     },
     "OutputDebugStringW": {
+        "return_type": "void",
         "n_arguments": 1,
         "arguments": [
             {
@@ -13477,6 +13902,7 @@
         ]
     },
     "NtContinue": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -13494,6 +13920,7 @@
         ]
     },
     "NtContinueEx": {
+        "return_type": "NTSTATUS",
         "n_arguments": 2,
         "arguments": [
             {
@@ -13511,6 +13938,7 @@
         ]
     },
     "RtlDosPathNameToNtPathName_U": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -13540,6 +13968,7 @@
         ]
     },
     "ScriptIsComplex": {
+        "return_type": "WINAPI",
         "n_arguments": 3,
         "arguments": [
             {
@@ -13563,6 +13992,7 @@
         ]
     },
     "StrCmpNICW": {
+        "return_type": "int",
         "n_arguments": 3,
         "arguments": [
             {
@@ -13586,6 +14016,7 @@
         ]
     },
     "SysFreeString": {
+        "return_type": "void",
         "n_arguments": 1,
         "arguments": [
             {
@@ -13597,6 +14028,7 @@
         ]
     },
     "UrlCanonicalizeW": {
+        "return_type": "HRESULT",
         "n_arguments": 4,
         "arguments": [
             {
@@ -13626,6 +14058,7 @@
         ]
     },
     "VarBstrCat": {
+        "return_type": "HRESULT",
         "n_arguments": 3,
         "arguments": [
             {
@@ -13649,6 +14082,7 @@
         ]
     },
     "rtcCreateObject2": {
+        "return_type": "WINAPI",
         "n_arguments": 3,
         "arguments": [
             {
@@ -13672,6 +14106,7 @@
         ]
     },
     "DownloadFile": {
+        "return_type": "WINAPI",
         "n_arguments": 3,
         "arguments": [
             {
@@ -13695,6 +14130,7 @@
         ]
     },
     "NtQueryLicenseValue": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -13730,6 +14166,7 @@
         ]
     },
     "SslGenerateMasterKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 11,
         "arguments": [
             {
@@ -13801,6 +14238,7 @@
         ]
     },
     "SslImportMasterKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 9,
         "arguments": [
             {
@@ -13860,6 +14298,7 @@
         ]
     },
     "SslHashHandshake": {
+        "return_type": "NTSTATUS",
         "n_arguments": 5,
         "arguments": [
             {
@@ -13895,6 +14334,7 @@
         ]
     },
     "SslExpandTrafficKeys": {
+        "return_type": "NTSTATUS",
         "n_arguments": 7,
         "arguments": [
             {
@@ -13942,6 +14382,7 @@
         ]
     },
     "SslExpandExporterMasterKey": {
+        "return_type": "NTSTATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -13983,6 +14424,7 @@
         ]
     },
     "SslGenerateSessionKeys": {
+        "return_type": "NTSTATUS",
         "n_arguments": 6,
         "arguments": [
             {
@@ -14024,6 +14466,7 @@
         ]
     },
     "SwitchToThread": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -14035,6 +14478,7 @@
         ]
     },
     "DsEnumerateDomainTrustsW": {
+        "return_type": "DWORD",
         "n_arguments": 4,
         "arguments": [
             {
@@ -14064,6 +14508,7 @@
         ]
     },
     "IsValidURL": {
+        "return_type": "HRESULT",
         "n_arguments": 3,
         "arguments": [
             {
@@ -14087,6 +14532,7 @@
         ]
     },
     "MultiByteToWideChar": {
+        "return_type": "int",
         "n_arguments": 6,
         "arguments": [
             {
@@ -14128,6 +14574,7 @@
         ]
     },
     "WideCharToMultiByte": {
+        "return_type": "int",
         "n_arguments": 8,
         "arguments": [
             {
@@ -14181,6 +14628,7 @@
         ]
     },
     "GetCommandLineA": {
+        "return_type": "LPSTR",
         "n_arguments": 1,
         "arguments": [
             {
@@ -14192,6 +14640,7 @@
         ]
     },
     "GetCommandLineW": {
+        "return_type": "LPWSTR",
         "n_arguments": 1,
         "arguments": [
             {
@@ -14203,6 +14652,7 @@
         ]
     },
     "DisableThreadLibraryCalls": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -14214,6 +14664,7 @@
         ]
     },
     "compileMethod": {
+        "return_type": "int",
         "n_arguments": 6,
         "arguments": [
             {
@@ -14255,6 +14706,7 @@
         ]
     },
     "GetProcAddress": {
+        "return_type": "FARPROC",
         "n_arguments": 2,
         "arguments": [
             {
@@ -14272,6 +14724,7 @@
         ]
     },
     "GetModuleHandleA": {
+        "return_type": "HMODULE",
         "n_arguments": 1,
         "arguments": [
             {
@@ -14283,6 +14736,7 @@
         ]
     },
     "GetModuleHandleW": {
+        "return_type": "HMODULE",
         "n_arguments": 1,
         "arguments": [
             {
@@ -14294,6 +14748,7 @@
         ]
     },
     "Sleep": {
+        "return_type": "void",
         "n_arguments": 1,
         "arguments": [
             {
@@ -14305,6 +14760,7 @@
         ]
     },
     "CreateMutexA": {
+        "return_type": "HANDLE",
         "n_arguments": 3,
         "arguments": [
             {
@@ -14328,6 +14784,7 @@
         ]
     },
     "CreateMutexW": {
+        "return_type": "HANDLE",
         "n_arguments": 3,
         "arguments": [
             {
@@ -14351,6 +14808,7 @@
         ]
     },
     "GetVolumeInformationA": {
+        "return_type": "BOOL",
         "n_arguments": 8,
         "arguments": [
             {
@@ -14404,6 +14862,7 @@
         ]
     },
     "GetVolumeInformationW": {
+        "return_type": "BOOL",
         "n_arguments": 8,
         "arguments": [
             {
@@ -14457,6 +14916,7 @@
         ]
     },
     "CloseHandle": {
+        "return_type": "BOOL",
         "n_arguments": 1,
         "arguments": [
             {
@@ -14468,6 +14928,7 @@
         ]
     },
     "Process32First": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -14485,6 +14946,7 @@
         ]
     },
     "Process32Next": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -14502,6 +14964,7 @@
         ]
     },
     "ExitProcess": {
+        "return_type": "VOID",
         "n_arguments": 1,
         "arguments": [
             {
@@ -14513,6 +14976,7 @@
         ]
     },
     "OpenThread": {
+        "return_type": "HANDLE",
         "n_arguments": 3,
         "arguments": [
             {
@@ -14536,6 +15000,7 @@
         ]
     },
     "GetWriteWatch": {
+        "return_type": "UINT",
         "n_arguments": 6,
         "arguments": [
             {
@@ -14577,6 +15042,7 @@
         ]
     },
     "UpdateProcThreadAttribute": {
+        "return_type": "BOOL",
         "n_arguments": 7,
         "arguments": [
             {
@@ -14624,6 +15090,7 @@
         ]
     },
     "PathRenameExtensionA": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -14641,6 +15108,7 @@
         ]
     },
     "PathRenameExtensionW": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -14658,6 +15126,7 @@
         ]
     },
     "PathCombineA": {
+        "return_type": "LPSTR",
         "n_arguments": 3,
         "arguments": [
             {
@@ -14681,6 +15150,7 @@
         ]
     },
     "PathCombineW": {
+        "return_type": "LPWSTR",
         "n_arguments": 3,
         "arguments": [
             {
@@ -14704,6 +15174,7 @@
         ]
     },
     "PathCchCombine": {
+        "return_type": "HRESULT",
         "n_arguments": 4,
         "arguments": [
             {
@@ -14733,6 +15204,7 @@
         ]
     },
     "PathCchCombineEx": {
+        "return_type": "HRESULT",
         "n_arguments": 5,
         "arguments": [
             {
@@ -14768,6 +15240,7 @@
         ]
     },
     "PathAllocCombine": {
+        "return_type": "HRESULT",
         "n_arguments": 4,
         "arguments": [
             {
@@ -14797,6 +15270,7 @@
         ]
     },
     "PathAddExtensionA": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -14814,6 +15288,7 @@
         ]
     },
     "PathAddExtensionW": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -14831,6 +15306,7 @@
         ]
     },
     "PathCchRenameExtension": {
+        "return_type": "HRESULT",
         "n_arguments": 3,
         "arguments": [
             {
@@ -14854,6 +15330,7 @@
         ]
     },
     "Thread32Next": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -14871,6 +15348,7 @@
         ]
     },
     "Thread32First": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -14888,6 +15366,7 @@
         ]
     },
     "GetProcessHeap": {
+        "return_type": "HANDLE",
         "n_arguments": 1,
         "arguments": [
             {
@@ -14899,6 +15378,7 @@
         ]
     },
     "HeapAlloc": {
+        "return_type": "LPVOID",
         "n_arguments": 3,
         "arguments": [
             {
@@ -14922,6 +15402,7 @@
         ]
     },
     "VirtualAlloc": {
+        "return_type": "LPVOID",
         "n_arguments": 4,
         "arguments": [
             {
@@ -14951,6 +15432,7 @@
         ]
     },
     "GlobalAlloc": {
+        "return_type": "HGLOBAL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -14968,6 +15450,7 @@
         ]
     },
     "LocalAlloc": {
+        "return_type": "HLOCAL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -14985,6 +15468,7 @@
         ]
     },
     "RtlAllocateHeap": {
+        "return_type": "NTSYSAPI PVOID",
         "n_arguments": 3,
         "arguments": [
             {
@@ -15008,6 +15492,7 @@
         ]
     },
     "CopyFile2": {
+        "return_type": "HRESULT",
         "n_arguments": 3,
         "arguments": [
             {
@@ -15031,6 +15516,7 @@
         ]
     },
     "DeleteFileTransactedW": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -15048,6 +15534,7 @@
         ]
     },
     "SetEnvironmentVariableA": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -15065,6 +15552,7 @@
         ]
     },
     "SetEnvironmentVariableW": {
+        "return_type": "BOOL",
         "n_arguments": 2,
         "arguments": [
             {
@@ -15082,6 +15570,7 @@
         ]
     },
     "GetEnvironmentVariableA": {
+        "return_type": "DWORD",
         "n_arguments": 3,
         "arguments": [
             {
@@ -15105,6 +15594,7 @@
         ]
     },
     "GetEnvironmentVariableW": {
+        "return_type": "DWORD",
         "n_arguments": 3,
         "arguments": [
             {
@@ -15128,6 +15618,7 @@
         ]
     },
     "GetEnvironmentStrings": {
+        "return_type": "LPTCH",
         "n_arguments": 1,
         "arguments": [
             {
@@ -15139,6 +15630,7 @@
         ]
     },
     "ExpandEnvironmentStringsA": {
+        "return_type": "DWORD",
         "n_arguments": 3,
         "arguments": [
             {
@@ -15162,6 +15654,7 @@
         ]
     },
     "ExpandEnvironmentStringsW": {
+        "return_type": "DWORD",
         "n_arguments": 3,
         "arguments": [
             {
@@ -15185,6 +15678,7 @@
         ]
     },
     "EnumDisplayDevicesA": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -15214,6 +15708,7 @@
         ]
     },
     "EnumDisplayDevicesW": {
+        "return_type": "BOOL",
         "n_arguments": 4,
         "arguments": [
             {
@@ -15243,6 +15738,7 @@
         ]
     },
     "EnumProcesses": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
@@ -15266,6 +15762,7 @@
         ]
     },
     "K32EnumProcesses": {
+        "return_type": "BOOL",
         "n_arguments": 3,
         "arguments": [
             {
