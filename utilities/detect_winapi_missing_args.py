@@ -27,7 +27,7 @@ def update_missing_info(winapi_categories, hooks_h_json):
                 winapi_cat_json[entry]["n_arguments"] = hooks_h_json[entry]["n_arguments"]
                 winapi_cat_json[entry]["arguments"] = hooks_h_json[entry]["arguments"]
         except Exception as e:
-            print(f"Error detected for entry {entry}: {e}")
+            print(f"Error detected for entry {entry}: {e} - {repr(e)}")
             pass
 
     return winapi_cat_json
