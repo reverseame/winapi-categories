@@ -66,7 +66,7 @@ def parse_hookdef(file_content):
                     arg_name = arg_parts[2].rstrip(',')
                     
                 argument = {
-                    "in_out": f"_{in_out.strip('_')}_",
+                    "in_out": in_out,
                     "type": arg_type,
                     "name": arg_name
                 }
