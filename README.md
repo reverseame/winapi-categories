@@ -37,9 +37,9 @@ The resulting JSON file has the following structure. The `dict` structure was ch
 **ATTENTION!**: Only `API_NAME` and `category` are guaranteed to be present in the dict ([winapi_categories.json](./winapi_categories.json) file). If you find any incorrect, malformed or just missing entry, feel free *(you are more than welcome to)* to contribute to the project!
 
 ### Authors
-[Razvan Raducu](https://github.com/RazviOverflow)
-Ricardo J. Rodíguez
-Pedro Álvarez
+[Razvan Raducu](https://github.com/RazviOverflow)  
+Ricardo J. Rodíguez  
+Pedro Álvarez  
 
 ### Caveats
 If you see several `\t\t\t` in certain `description` fields, just ignore them or `.strip()` it when parsing. That's because the original repo also [contains them](https://github.com/vadimkotov/winapi-json/blob/master/api_by_category/dynamic_data_exchange_management.json#L26).

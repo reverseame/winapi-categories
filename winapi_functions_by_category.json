@@ -732,13 +732,11 @@
         "SetDoubleClickTime",
         "SwapMouseButton",
         "mouse_event",
-        "WindowFromPoint",
-        "DragObject"
+        "WindowFromPoint"
     ],
     "Window Procedures": [
         "DefWindowProc",
-        "CallWindowProc",
-        "WindowProc"
+        "CallWindowProc"
     ],
     "Mobile Broadband": [
         "WwanCloseHandle",
@@ -2542,6 +2540,10 @@
         "ShellExecute",
         "ShellExecuteEx",
         "CreateProcess",
+        "EnumPageFiles",
+        "EnumProcesses",
+        "EnumProcessModules",
+        "EnumProcessModulesEx",
         "NtOpenSection",
         "NtCreateSection",
         "NtMapViewOfSection",
@@ -2571,7 +2573,8 @@
         "NtQueueApcThread",
         "NtResumeProcess",
         "Module32First",
-        "Module32Next"
+        "Module32Next",
+        "K32EnumProcesses"
     ],
     "System Information Functions": [
         "GetEnvironmentStrings",
@@ -4736,7 +4739,6 @@
         "SetDllDirectory",
         "LoadModule",
         "LdrGetDllHandle",
-        "DllLoadNotification",
         "LdrGetProcedureAddressForCaller",
         "LdrLoadDll",
         "LdrGetProcedureAddress"
@@ -5262,10 +5264,6 @@
     "Process Status (PSAPI)": [
         "EmptyWorkingSet",
         "EnumDeviceDrivers",
-        "EnumPageFiles",
-        "EnumProcesses",
-        "EnumProcessModules",
-        "EnumProcessModulesEx",
         "GetDeviceDriverBaseName",
         "GetDeviceDriverFileName",
         "GetMappedFileName",
