@@ -53,7 +53,7 @@ Pedro Álvarez
 If you see several `\t\t\t` in certain `description` fields, just ignore them or `.strip()` it when parsing. That's because the original repo also [contains them](https://github.com/vadimkotov/winapi-json/blob/master/api_by_category/dynamic_data_exchange_management.json#L26).
 
 ## Acknowledgments
-This repo is inspired in (and based on) [winapi-json](https://github.com/vadimkotov/winapi-json).
+This repo is based on [winapi-json](https://github.com/vadimkotov/winapi-json).
 
 ## TODO
 Pending entries to review, fulfill or fix:
