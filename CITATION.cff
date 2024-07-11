@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Raducu"
+  given-names: "Razvan"
+  orcid: "https://orcid.org/0000-0002-8938-755X"
+- family-names: "Rodríguez"
+  given-names: "Ricardo J."
+  orcid: "https://orcid.org/0000-0001-7982-0359"
+- family-names: "Álvarez"
+  given-names: "Pedro"
+  orcid: "https://orcid.org/0000-0002-6584-7259"
+title: "Windows API and Syscalls categories"
+repository-code: "https://github.com/kevoreilly/CAPEv2"
+version: 1.0.0
+date-released: 2024-07-11
+url: "https://github.com/reverseame/winapi-categories"
+license: GPL-3.0
+type: generic
+abstract: >
+  Windows API (WinAPI) functions and system calls with categories in JSON format, including arguments (SAL notation) and more.
+keywords:
+  - windows
+  - api
+  - system calls
+  - syscalls
+  - native api
+  - ntapi
+  - categorization
