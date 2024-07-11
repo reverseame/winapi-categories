@@ -1,8 +1,8 @@
 # WinAPI and syscalls with categories
 Classification of Windows API (WinAPI) functions and system calls (syscalls), including the Native API (NTAPI) according to their category, in JSON format for you research and automation needs. 
 
-In this repo, we use the term WinAPI to refer to what is (still nowadays) widely known as Win32, as recommended by [Microsoft](https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list):
-> Note that this (Windows API) was formerly called the Win32 API. The name Windows API more accurately reflects its roots in 16-bit Windows and its support on 64-bit Windows
+In this repo, we use the terms Windows API or WinAPI to refer to what was (and still is nowadays) widely known as Win32 API, as recommended by [Microsoft](https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list):
+> Note that this was formerly called the Win32 API. The name Windows API more accurately reflects its roots in 16-bit Windows and its support on 64-bit Windows
 
 ### The main files of this repository are:
 - [winapi_categories.json](./winapi_categories.json) is the main file of the repo. Contains all the functions and syscalls with their corresponding category and arguments.
@@ -44,18 +44,18 @@ The resulting JSON file has the following structure. The `dict` structure was ch
 
 **ATTENTION!**: Only `API_NAME` and `category` are guaranteed to be present in the dict ([winapi_categories.json](./winapi_categories.json) file). If you find any incorrect, malformed or just missing entry, feel free *(you are more than welcome to)* to contribute to the project!
 
-### Authors
+## Authors
 [Razvan Raducu](https://github.com/RazviOverflow)  
 Ricardo J. Rodíguez  
 Pedro Álvarez  
 
-### Caveats
+## Caveats
 If you see several `\t\t\t` in certain `description` fields, just ignore them or `.strip()` it when parsing. That's because the original repo also [contains them](https://github.com/vadimkotov/winapi-json/blob/master/api_by_category/dynamic_data_exchange_management.json#L26).
 
 ## Acknowledgments
 This repo is inspired in (and based on) [winapi-json](https://github.com/vadimkotov/winapi-json).
 
-### TODO
+## TODO
 Pending entries to review, fulfill or fix:
 ```
 MoveFileWithProgressTransacted
