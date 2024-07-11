@@ -1,6 +1,10 @@
-# WinAPI and syscalls with categories in JSON format
-Classification of Windows API (WinAPI) functions and system calls (syscalls), including the Native API and Win32, according to their category. 
+# WinAPI and syscalls with categories
+Classification of Windows API (WinAPI) functions and system calls (syscalls), including the Native API (NTAPI) according to their category, in JSON format for you research and automation needs. 
 
+In this repo, we use the term WinAPI to refer to what is (still nowadays) widely known as Win32, as recommended by [Microsoft](https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list):
+> Note that this (Windows API) was formerly called the Win32 API. The name Windows API more accurately reflects its roots in 16-bit Windows and its support on 64-bit Windows
+
+### The main files of this repository are:
 - [winapi_categories.json](./winapi_categories.json) is the main file of the repo. Contains all the functions and syscalls with their corresponding category and arguments.
 - [winapi_functions_by_category.json](./winapi_functions_by_category.json) enumerates all the categories and the functions and syscalls each one of them comprises.
 - [categories.txt](./categories.txt) contains a list with all the categories.
@@ -49,7 +53,7 @@ Pedro Álvarez
 If you see several `\t\t\t` in certain `description` fields, just ignore them or `.strip()` it when parsing. That's because the original repo also [contains them](https://github.com/vadimkotov/winapi-json/blob/master/api_by_category/dynamic_data_exchange_management.json#L26).
 
 ## Acknowledgments
-This repo is a revamp of [winapi-json](https://github.com/vadimkotov/winapi-json) for your research and automation needs.
+This repo is inspired in (and based on) [winapi-json](https://github.com/vadimkotov/winapi-json).
 
 ### TODO
 Pending entries to review, fulfill or fix:
