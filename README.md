@@ -58,35 +58,16 @@ This repo is inspired in (and based on) [winapi-json](https://github.com/vadimko
 ### TODO
 Pending entries to review, fulfill or fix:
 ```
+MoveFileWithProgressTransacted
 GlobalCompact
 GlobalFix
 GlobalUnfix
 _hread
 _hwrite
 IsBadHugeReadPtr
-_lcreat
-_llseek
 IsBadHugeWritePtr
-_lclose
-_lopen
-ReadClassStg
-StgCreateDocfile
-StgIsStorageFile
-StgOpenAsyncDocfileOnIFillLockBytesKeyError
-StgOpenStorage
-WriteClassStm
-WriteFmtUserTypeStg
-SetICMMode
-SetWindowsHook
+StgOpenAsyncDocfileOnIFillLockBytes
 SetWindowWord
-TranslateMDISysAccel
-UpdateICMRegKey
-VerLanguageName
 malloc
-GetFileVersionInfo
-GetFileVersionInfoSize
-Module32First
-Module32Next
-SetupDiGetClassDevs
 URLDownloadToFile
 ```
