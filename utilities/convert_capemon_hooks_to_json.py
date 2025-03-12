@@ -6,6 +6,7 @@ import json
 """
 Script used to parse hooks.h from capemon (CAPE's monitor) and extract the arguments
 for those functions from winapi_categories.json that are missing them (if any)
+-> https://github.com/kevoreilly/capemon/blob/capemon/hooks.h
 """
 
 def parse_hookdef(file_content):

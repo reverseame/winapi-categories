@@ -6,6 +6,7 @@ import json
 """
 Script used to parse winapi_categories.json and detect functions 
 that are missing arguments (if any). Uses hooks_h.json to fill the missing info.
+hooks_h.json is the output of the `convert_capemon_hooks_to_json.py` script.
 """
 
 def update_missing_info(winapi_categories, hooks_h_json):
