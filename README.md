@@ -1,4 +1,4 @@
-# Windows API and Syscalls categories
+# Windows API and Syscall categories
 Classification of Windows API (WinAPI) functions and system calls (syscalls), including the Native API (NTAPI), according to their category. Presented in JSON format for you research and automation needs. 
 
 In this repo, we use the terms Windows API or WinAPI to refer to what was (and still is nowadays) widely known as Win32 API, as recommended by [Microsoft](https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list):
